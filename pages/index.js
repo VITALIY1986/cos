@@ -132,7 +132,7 @@ const News = [
         responsive={responsive}
 		disableDotsControls={false}
 		disableButtonsControls={true}
-		autoPlayInterval={400}
+		autoPlayInterval={3000}
 		infinite={true}
     />
 							
