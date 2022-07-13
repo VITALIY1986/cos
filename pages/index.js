@@ -53,7 +53,7 @@ export default function Home (props) {
 			<Layout>
 	<div className="main">
 	<div>
-				<div className="w-full h-screen relative">
+				<div className="w-full h-screen relative ">
 		
 							<Image
 							className="object-cover"
@@ -61,6 +61,11 @@ export default function Home (props) {
 							alt="Picture of the author"
 							layout="fill"
 						  />
+						  <div className="absolute w-full text-center bottom-0 mb-40">
+							<h1>TRTYUIT^JFKJ</h1>
+							<h3>sdfsdfsdf</h3>
+							<button>book</button>
+						  </div>
 						
 				</div>
 			</div>	
