@@ -24,11 +24,52 @@ import Image from 'next/image'
 export default function Home (props) {
 
 	const { isLoggedIn } = useAuth();
-
+const News = [
+	{
+	content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
+	date: "2021-03-26T07:33:17",
+	excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
+	featuredImage: {node: 
+		{sourceUrl: profilePic.src}
+		},
+	id: "cG9zdDo5NjIw",
+	slug: "zinc-formula-cos-laboratories",
+	title: "Zinc: Formula Cos Laboratories"},
+	{
+		content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
+		date: "2021-03-26T07:33:17",
+		excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
+		featuredImage: {node: 
+		{sourceUrl: profilePic.src}
+		},
+		id: "cG9zdDo5NjIw",
+		slug: "zinc-formula-cos-laboratories",
+		title: "Zinc: Formula Cos Laboratories"},
+		{
+			content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
+			date: "2021-03-26T07:33:17",
+			excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
+			featuredImage: {node: 
+				{sourceUrl: profilePic.src}
+				},
+			id: "cG9zdDo5NjIw",
+			slug: "zinc-formula-cos-laboratories",
+			title: "Zinc: Formula Cos Laboratories"},
+			{
+				content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
+				date: "2021-03-26T07:33:17",
+				excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
+				featuredImage: {node: 
+				{sourceUrl: profilePic.src}
+				},
+				id: "cG9zdDo5NjIw",
+				slug: "zinc-formula-cos-laboratories",
+				title: "Zinc: Formula Cos Laboratories"},
+]
 	  
 	
 	
-	const { products,  heroCarousel, posts, postsCategory,featuredproducts,news ,ret} = props || {};
+	const { products,  heroCarousel,featuredproducts,news } = props || {};
 
 	const responsive = {
 		0: { items: 1 },
@@ -41,10 +82,10 @@ export default function Home (props) {
 	
 		
 	];
-	news.map(( post,index )=>items.push(<Post key={ post.id } index={index} post={ post } />) );
+	News.map(( post,index )=>items.push(<Post key={ post.id } index={index} post={ post } />) );
 
 	
-	console.log(products.length)
+	console.log(news.map(post =>post))
 
 
 	return (
@@ -86,12 +127,13 @@ export default function Home (props) {
 			
 			
 				 <AliceCarousel
-        
+        autoPlay={true}
         items={items}
         responsive={responsive}
-		disableDotsControls={true}
+		disableDotsControls={false}
 		disableButtonsControls={true}
-	
+		autoPlayInterval={400}
+		infinite={true}
     />
 							
 			
