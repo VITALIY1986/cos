@@ -33,7 +33,7 @@ const Footer = () => (
 				<div className="col-start-6 col-end-6">
 				     <h3 className="mt-5 text-3xl ">МИ В СОЦ.МЕРЕЖАХ</h3>
 				     <ul className="social-links flex  mt-5 ">
-				        <li><a href="https://www.facebook.com/4ProfUkraine" className="" target="_blank"><Facebook/></a></li>
+				        <li className="w-6 h-6 m-6 p-6 rounded-full  bg-futer futshadow flex items-center justify-center"><a href="https://www.facebook.com/4ProfUkraine" className="" target="_blank"><Facebook/></a></li>
 				        <li className="ml-2 mt-1"><a href="#" target="_blank"><Twitter/></a></li>
 				        <li className="ml-2 mt-1"><a href="https://www.youtube.com/channel/UC3BBKd1UUUtXMjY4uL_NZ4g" className="fa fa-youtube" target="_blank"><Youtube/></a></li>
 				        <li className="ml-2"><a href="https://www.instagram.com/4profukraine/" className="fa fa-instagram" target="_blank"><Instagram/></a></li>

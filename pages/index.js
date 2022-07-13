@@ -61,7 +61,7 @@ export default function Home (props) {
 							alt="Picture of the author"
 							layout="fill"
 						  />
-						  <div className="px-6  relative w-full text-left translate-y-60 lg:text-center lg:translate-y-64 transform-gpu">
+						  <div className="px-6  relative w-full text-left translate-y-60 md:text-center md:translate-y-60 transform-gpu">
 							<h1 className="text-4xl max-w-xl font-semibold ">Adevărate vitamine pentru păr</h1>
 							<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
 							<button className="rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white">book</button>

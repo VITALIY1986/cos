@@ -480,3 +480,6 @@ button:focus-visible {
 .active-color{
   color:red;
 }
+.futshadow{
+  filter: drop-shadow(10px 10px 10px  red);
+}
