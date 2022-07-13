@@ -49,8 +49,8 @@ const Accordion = ({/*{questionsAnswers}*/}) => {
   });
 
   return (
-    <>  <h1 className="faq__title text-center">FAQ</h1>
-    <div className="faq flex justify-center ">
+    <> 
+    <div className="faq flex justify-center px-6 my-20">
     
       <dl className="faq__list ">{renderedQuestionsAnswers}</dl>
     </div>

@@ -400,8 +400,7 @@ button:focus-visible {
 
 .faq {
   width: 100%;
-  padding-top: 65px;
-  padding-bottom: 80px;
+ 
 
   &__title {
     margin: 0;
@@ -409,7 +408,7 @@ button:focus-visible {
   }
 
   &__question {
-    max-width: 350px;
+   
     width: 100%;
     border-bottom: 1px solid $light-grayish-blue;
   }

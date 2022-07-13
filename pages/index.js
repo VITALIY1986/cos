@@ -52,7 +52,7 @@ export default function Home (props) {
 
 			<Layout>
 	<div className="main">
-	<div>
+
 				<div className="w-full h-screen relative flex items-center justify-center ">
 		
 							<Image
@@ -61,13 +61,13 @@ export default function Home (props) {
 							alt="Picture of the author"
 							layout="fill"
 						  />
-						  <div className="  relative w-full text-left translate-y-64 lg:text-center lg:translate-y-64 transform-gpu">
-							<h1 className="text-4xl font-semibold">TRTYUIT^JFKJ</h1>
-							<h3 className="mt-3">sdfsdfsdf</h3>
-							<button>book</button>
+						  <div className="px-6  relative w-full text-left translate-y-64 lg:text-center lg:translate-y-64 transform-gpu">
+							<h1 className="text-4xl max-w-xl font-semibold ">Adevărate vitamine pentru păr</h1>
+							<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
+							<button className="rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white">book</button>
 						  </div>
 						
-				</div>
+				
 			</div>	
 			<Accordion/>
 			
