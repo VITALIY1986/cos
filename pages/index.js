@@ -102,7 +102,7 @@ const News = [
 		src={Kisspng}
 		alt="Picture of the author"
 		width={40}
-      height={30}
+      height={40}
 	  /></div>
 	  <div >
 		<Image
