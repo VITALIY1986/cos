@@ -31,7 +31,7 @@ module.exports = {
           DEFAULT: '#2b2b3e'
         },
         very_peri: {
-          DEFAULT: '#6661b1'
+          DEFAULT: '#ffffff'
         },
         very_peri_dark: {
           DEFAULT: '#413f5d'
