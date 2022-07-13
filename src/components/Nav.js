@@ -164,7 +164,7 @@ const Nav = () => {
 		
 		</label>
 		<section className="drawer-list bg-very_peri ">
-		<ul className="">
+		<ul className="text-center">
 			<li className='mx-5'>afasfas</li>
 			<li className='mx-5'>afasfas</li>
 			<li className='mx-5'>afasfas</li>
