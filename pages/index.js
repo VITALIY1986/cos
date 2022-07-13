@@ -16,9 +16,9 @@ import { useAuth } from '../src/components/login-function/hooks';
 import Head from "next/head"
 import AliceCarousel from 'react-alice-carousel';
 import Navigation from "../src/components/navigation-chantarelle";
-import profilePic from "../public/pattern_chant.png"
+import profilePic from "../public/pattern_chant.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
-
+import Image from 'next/image'
 
 
 export default function Home (props) {
@@ -45,27 +45,35 @@ export default function Home (props) {
 
 	
 	console.log(products.length)
-	 
+
 
 	return (
 	
 
 			<Layout>
 	<div className="main">
-				{/*Hero Carousel*/}
+	<div>
+				<div className="w-full h-screen relative">
+		
+							<Image
+							className="object-cover"
+							src={profilePic}
+							alt="Picture of the author"
+							layout="fill"
+						  />
+						
+				</div>
+			</div>	
 			<Accordion/>
-				
-				<HeroCarousel heroCarousel={heroCarousel}/>
-				
-				{/*<a href="myfile.pdf"  download>Download</a>*/}
 			
-				{/*Categories
+			{/*Hero Carousel*/}
+			<HeroCarousel heroCarousel={heroCarousel}/>
+			{/*<a href="myfile.pdf"  download>Download</a>*/}
+			{/*Categories
 				<div className="product-categories-container container mx-auto my-32 px-4 xl:px-0">
 					<h2 className="mai-title text-3xl text-center mb-5 uppercase"><span className="main-title-inner">Categories</span></h2>
 					<ParentCategoriesBlock productCategories={ productCategories }/>
-</div>*/ }
-			
-				{/*<div>	<Login/></div>*/}
+</div>*/ }{/*<div>	<Login/></div>*/}
 			
 			<div className="px-4">
 				<div className="products container mx-auto mt-32  ">
