@@ -17,6 +17,8 @@ import Head from "next/head"
 import AliceCarousel from 'react-alice-carousel';
 import Navigation from "../src/components/navigation-chantarelle";
 import profilePic from "../public/pattern_chant.jpg"
+import Round from "../public/round.png"
+import Kisspng from "../public/kisspng.png"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 
@@ -94,6 +96,23 @@ const News = [
 			<Layout>
 	<div className="main  ">
 	<div className="w-full h-screen relative flex items-center justify-center ">
+		<div className="absolute top-10 left-10 z-10 w-24">
+			<div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center  "><Image
+		
+		src={Kisspng}
+		alt="Picture of the author"
+		width={40}
+      height={30}
+	  /></div>
+	  <div >
+		<Image
+		className="App-logo"
+		src={Round}
+		alt="Picture of the author"
+		width={100}
+		height={100}
+	  /></div>	
+		</div>
 		
 		<Image
 		className="object-cover"
