@@ -29,7 +29,7 @@ const Accordion = ({/*{questionsAnswers}*/}) => {
   ];
   const renderedQuestionsAnswers = questionsAnswers.map((item, index) => {
     const showDescription = index === activeIndex ? "show-description" : "";
-    const fontWeightBold = index === activeIndex ? "font-weight-bold, text-blue-600" : "";
+    const fontWeightBold = index === activeIndex ? "text-red-300 font-weight-bold " : "";
     
     const ariaExpanded = index === activeIndex ? "true" : "false";
     return (
