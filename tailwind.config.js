@@ -33,6 +33,9 @@ module.exports = {
         very_peri: {
           DEFAULT: '#debc90'
         },
+        futer: {
+          DEFAULT: '#39333c'
+        },
         very_peri_dark: {
           DEFAULT: '#413f5d'
         },

@@ -1,11 +1,11 @@
 import {Facebook, Instagram, Twitter, Youtube} from "./icons";
 
 const Footer = () => (
-	<div className="footer bg-purple p-6 text-white">
+	<div className="footer bg-futer text-white px-6">
 		<div className="container mx-auto">
 			<div className="md:grid  md:grid-cols-6 gap-4 font-thin">
 				<div className="col-start-1 col-end-4 ">
-					<h3 className="mt-5 text-3xl text-blue">НАШІ КОМПАНІЇ</h3>
+					<h3 className="mt-5 text-3xl ">НАШІ КОМПАНІЇ</h3>
 					<div className=" flex mt-5 ">
 						<div className="flex-1 opacity-75 " >
 					     <p className="mb-3">Chantarelle</p>
@@ -20,7 +20,7 @@ const Footer = () => (
 					</div>
 			    </div>
 				<div className="col-start-4 col-end-6 ">
-					<h3 className="mt-5 text-3xl text-blue ">КОНТАКТИ</h3>
+					<h3 className="mt-5 text-3xl  ">КОНТАКТИ</h3>
 					<div className="mt-5 opacity-75 ">
 						<p>Mенеджер (Київ): +38 (097) 860 06 06 </p>
 						<p>Mенеджер (Київ): +38 (068) 706 70 67 </p>
@@ -31,7 +31,7 @@ const Footer = () => (
 					</div>
 				</div>
 				<div className="col-start-6 col-end-6">
-				     <h3 className="mt-5 text-3xl text-blue">МИ В СОЦ.МЕРЕЖАХ</h3>
+				     <h3 className="mt-5 text-3xl ">МИ В СОЦ.МЕРЕЖАХ</h3>
 				     <ul className="social-links flex  mt-5 ">
 				        <li><a href="https://www.facebook.com/4ProfUkraine" className="" target="_blank"><Facebook/></a></li>
 				        <li className="ml-2 mt-1"><a href="#" target="_blank"><Twitter/></a></li>
