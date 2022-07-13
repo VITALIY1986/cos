@@ -163,11 +163,11 @@ const Nav = () => {
 		  		<i></i>
 		
 		</label>
-		<section className="drawer-list bg-very_peri ">
-		<ul className="text-center">
-			<li className='mx-5'>afasfas</li>
-			<li className='mx-5'>afasfas</li>
-			<li className='mx-5'>afasfas</li>
+		<section className="drawer-list bg-very_peri  ">
+		<ul className="text-center mt-30">
+			<li className='mx-5 mt-10'>afasfas</li>
+			<li className='mx-5 mt-10'>afasfas</li>
+			<li className='mx-5 mt-10'>afasfas</li>
 		</ul>
 			</section>
 				</div>
