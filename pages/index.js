@@ -99,7 +99,7 @@ const News = [
 			<Layout>
 				{/*Hero 1*/}
 	<div className="main  ">
-	<div className="w-full h-screen relative flex items-center justify-center ">
+	<div className="w-full bottom-first relative flex items-center justify-center ">
 		<div className="absolute top-5 left-5 z-10 w-24">
 			<div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center  "><Image
 		
@@ -124,7 +124,7 @@ const News = [
 		alt="Picture of the author"
 		layout="fill"
 	  />
-	  <div className=" relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
+	  <div className="px-6 relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
 		<h1 className="text-4xl  font-semibold ">Adevărate vitamine pentru păr</h1>
 		<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
 		<button 
@@ -180,15 +180,18 @@ const News = [
 				</div>
 		</div>
 
-		
-	  
-  
+
+      
+   
+	
+   
 
 {/*Hero 3*/}
-
-
+<div className=" flex justify-center">
+<div className="md:w-2/6 ">
 			<Accordion/>
-		
+			</div>
+			</div>		
 			{/*Hero Carousel*/}
 			<HeroCarousel heroCarousel={heroCarousel}/>
 			{/*<a href="myfile.pdf"  download>Download</a>*/}

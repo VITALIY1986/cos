@@ -500,8 +500,20 @@ button:focus-visible {
   }
 }
 
+.bottom-fill{
+  height: 400px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.bottom-top{
+  height: 500px;
+  width: 100%;
+  background-color: #6f7f63;
+}
 
-
+.bottom-first{
+  height: 900px;
+}
 
 
 @keyframes App-logo-spin {
