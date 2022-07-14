@@ -36,6 +36,9 @@ module.exports = {
         futer: {
           DEFAULT: '#39333c'
         },
+        green_cos: {
+          DEFAULT: '#747c65'
+        },
         very_peri_dark: {
           DEFAULT: '#413f5d'
         },
