@@ -150,13 +150,15 @@ const News = [
 							
 				  			/>
 				  		</div>
-					<div className="absolute top-0 w-52 position-bootle-la">
+						  <div className="absolute top-0 w-52 position-bootle-la">
 							<Image
+							
 							src={BootCa}
 							alt="Picture of the author"
-						
+							
 				  			/>
 				  		</div>
+					
 				</div>
 				
 			</div>
