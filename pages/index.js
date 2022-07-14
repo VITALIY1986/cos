@@ -1,6 +1,6 @@
 import Layout from "../src/components/Layout";
 import ProductHome from "../src/components/ProductHomePage";
-import Post from "../src/components/Post";
+import Coment from "../src/components/Coment";
 import client from '../src/components/ApolloClient';
 import ParentCategoriesBlock from "../src/components/category/category-block/ParentCategoriesBlock";
 import ParentProductBlock from "../src/components/products/PerentProducts";
@@ -20,6 +20,7 @@ import profilePic from "../public/pattern_chant.jpg"
 import Round from "../public/round.png"
 import Kisspng from "../public/kisspng.png"
 import BgfollIconFirst from "../public/block_third/istockphoto-1.png"
+import Girlpng from "../public/second-cos.png"
 import Bgfoll from "../public/block_third/vypadenie.jpg"
 import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -34,44 +35,30 @@ export default function Home (props) {
 const News = [
 	{
 	content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
-	date: "2021-03-26T07:33:17",
-	excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
 	featuredImage: {node: 
-		{sourceUrl: profilePic.src}
+		{sourceUrl: Girlpng.src}
 		},
 	id: "cG9zdDo5NjIw",
-	slug: "zinc-formula-cos-laboratories",
-	title: "Zinc: Formula Cos Laboratories"},
+	
+	title: "LILU"},
 	{
 		content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
-		date: "2021-03-26T07:33:17",
-		excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
 		featuredImage: {node: 
-		{sourceUrl: profilePic.src}
+		{sourceUrl: Girlpng.src}
 		},
 		id: "cG9zdDo5NjIw",
-		slug: "zinc-formula-cos-laboratories",
-		title: "Zinc: Formula Cos Laboratories"},
+		
+		title: "LILU"},
 		{
 			content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
-			date: "2021-03-26T07:33:17",
-			excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
+			
 			featuredImage: {node: 
-				{sourceUrl: profilePic.src}
+				{sourceUrl: Girlpng.src}
 				},
 			id: "cG9zdDo5NjIw",
-			slug: "zinc-formula-cos-laboratories",
-			title: "Zinc: Formula Cos Laboratories"},
-			{
-				content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
-				date: "2021-03-26T07:33:17",
-				excerpt: "<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule&#8230;</p>\n",
-				featuredImage: {node: 
-				{sourceUrl: profilePic.src}
-				},
-				id: "cG9zdDo5NjIw",
-				slug: "zinc-formula-cos-laboratories",
-				title: "Zinc: Formula Cos Laboratories"},
+		
+			title: "LILU"},
+		
 ]
 	  
 	
@@ -89,7 +76,7 @@ const News = [
 	
 		
 	];
-	News.map(( post,index )=>items.push(<Post key={ post.id } index={index} post={ post } />) );
+	News.map(( post,index )=>items.push(<Coment key={ post.id } index={index} post={ post } />) );
 
 	
 	console.log(news.map(post =>post))
@@ -203,7 +190,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-		   <p>Parul cade in cantitate foarte mare</p>
+		   <p className="mt-3 mx-3">Parul cade in cantitate foarte mare</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
 		<Image
@@ -213,7 +200,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-		   <p>Parul cade in cantitate foarte mare</p>
+		   <p className="mt-3 mx-3">Doar cativa centimetri cresc la un an dupa ce a fost tuns</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
 		<Image
@@ -223,7 +210,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-		   <p>Parul cade in cantitate foarte mare</p>
+		   <p className="mt-3 mx-3">Nici macar produsele cosmetice profesionale nu ajuta</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
 		<Image
@@ -233,7 +220,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-		   <p>Parul cade in cantitate foarte mare</p>
+		   <p className="mt-3 mx-3">Parul este casant si fara stralucire</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
 		<Image
@@ -243,7 +230,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-		   <p>Parul cade in cantitate foarte mare</p>
+		   <p className="mt-3 mx-3">Parul incarunteste mult prea devreme</p>
 		</div>
 	</div>
 </div>
@@ -261,7 +248,7 @@ const News = [
 			    <div className="rounded-full shadow-cos relative w-96 h-96">
 			      	<Image
 					className="rounded-full"
-					src={raundetSecond}
+					src={Girlpng}
 					alt="Picture of the author"
 					
 					layout="fill"
@@ -312,11 +299,96 @@ const News = [
 
 {/*Hero 5*/}
 
+{/*Hero 3*/}
+<div className="w-full relative pt-20 pb-10"> 
+<Image
+		className="object-cover"
+		src={Bgfoll}
+		alt="Picture of the author"
+		layout="fill"
+	  />
+	  <div className=" absolute top-0 bottom-0 left-0 right-0 ownbg"></div>
+	  <div className="flex justify-center mx-4">
+	<div className="relative pb-10 text-center text-white md:w-3/6">
+	<h2 className=" text-2xl  font-semibold ">AVANTAJELE FOLOSIRII PRODUSELOR C.O.S. LABORATORIES</h2>
+	<p className="mt-3 md:mx-3">Compania noastra ofera femeilor moderne suplimente alimentare foarte eficiente, inca din anul 2019. Produsele noastre merita atentia dumneavoastra din mai multe motive</p>
+	</div>
+	</div>
+	<div className=" relative flex justify-around flex-wrap text-white mx-4">
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+	  <h3 className="text-xl font-semibold">High Quality</h3>
+		   <p className="mt-2 md:mx-3">Sunt obtinute din materii prime de cea mai inalta calitate, alese cu grija de la furnizori de top din Europa</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+	  <h3 className="text-xl font-semibold">Unique Experience</h3>
+		   <p className="mt-2 md:mx-3">Retetele noastre sunt elaborate de specialisti cu experienta in domeniul cercetarii;</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+	  <h3 className="text-xl font-semibold">Good Support</h3>
+		   <p className="mt-2 md:mx-3">Linia noastra de productie indeplineste exigentele industriei farmaceutice, avand utilaje de ultima generatie</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+	  <h3 className="text-xl font-semibold">Nice Gifts</h3>
+		   <p className="mt-2 md:mx-3">Ambalajele noastre sunt sigure pentru mediu, nu contin plastic si in acelasi timp pastreaza proprietatile produselor timp indelungat.</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+	  <h3 className="text-xl font-semibold">Individual Approach</h3>
+		   <p className="mt-2 md:mx-3">Livrarea este gratuita pentru comenzi de peste 150 RON.</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+	  <h3 className="text-xl font-semibold">Effective Services</h3>
+		   <p className="mt-2 md:mx-3">We take care about our clients time. Just call us — and we will help you with all the questions.</p>
+		</div>
+	</div>
+</div>
+      
+
 
 
 	
-			{/*Hero Carousel*/}
-			<HeroCarousel heroCarousel={heroCarousel}/>
+		
 			{/*<a href="myfile.pdf"  download>Download</a>*/}
 			{/*Categories
 				<div className="product-categories-container container mx-auto my-32 px-4 xl:px-0">
@@ -325,13 +397,8 @@ const News = [
 </div>*/ }{/*<div>	<Login/></div>*/}
 			
 			<div className="px-4">
-				<div className="products container mx-auto mt-32  ">
-				<h2 className="products-main-title main-title mb-5 text-3xl text-center uppercase"><span className="main-title-inner">НОВИНИ</span></h2>
-				
-				
-			
-			
-				 <AliceCarousel
+				<div className="products container mx-auto mt-20  ">
+<AliceCarousel
         autoPlay={true}
         items={items}
         responsive={responsive}
@@ -340,26 +407,14 @@ const News = [
 		autoPlayInterval={3000}
 		infinite={true}
     />
-							
-			
-		
-			</div>
-					{/*Post
-					<div className="products container mx-auto my-32 px-4 ">
-					<h2 className="products-main-title main-title mb-5 text-3xl text-center uppercase"><span className="main-title-inner">{postsCategory?.name}</span></h2>
-					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
-						{ posts.length ? (
-							posts.map( post => <Post key={ post.id } post={ post }/> )
-						) : '' }
-					</div>
-				</div>*/ }
-					{/*Star*/ }
+							</div>
+					
 			
 				
 					
 				{/*Products*/ }
 				<div className="products container mx-auto my-10  ">
-					<h2 className="products-main-title main-title mb-5 text-3xl text-center uppercase"><span className="main-title-inner">Новинки</span></h2>
+				
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
 					{ featuredproducts.length ? (
 							featuredproducts.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
@@ -368,7 +423,7 @@ const News = [
 				</div>
 				{/*Prodduts*/ }
 		{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
-					<h2 className="products-main-title main-title mb-5 text-3xl text-center uppercase"><span className="main-title-inner">Акції</span></h2>
+		
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4">
 						{ products.length ? (
 							products.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
@@ -378,7 +433,7 @@ const News = [
 			
 				</div>
 				</div>
-				<h2 className="products-main-title main-title mb-5 text-3xl text-center uppercase"><span className="main-title-inner">Наші Марки</span></h2>
+			
 		
 				
 			</Layout>

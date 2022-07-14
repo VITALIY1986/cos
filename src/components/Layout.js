@@ -21,7 +21,7 @@ const Layout = (props) => {
         <div className="wrapper">
           <Head>
          
-            <title>4Prof </title>
+            <title>COS </title>
           </Head>
           <Header />
         
