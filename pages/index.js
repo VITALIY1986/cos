@@ -21,6 +21,7 @@ import Round from "../public/round.png"
 import Kisspng from "../public/kisspng.png"
 import BgfollIconFirst from "../public/block_third/istockphoto-1.png"
 import Girlpng from "../public/second-cos.png"
+import BootCa from "../public/bootle/boot-c.png"
 import Bgfoll from "../public/block_third/vypadenie.jpg"
 import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -34,30 +35,30 @@ export default function Home (props) {
 
 const News = [
 	{
-	content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
+	content: " Datorita Vitaminei C, pe care o consum regulat de cateva luni, am reuit sa transform parul tern , fara luciu, intr-unul stralucitor si sanatos. Am mai observat ca nu se mai deterioreaza atat de usor de  la soare, apa sarata sau aer uscat.",
 	featuredImage: {node: 
 		{sourceUrl: Girlpng.src}
 		},
 	id: "cG9zdDo5NjIw",
 	
-	title: "LILU"},
+	title: "Maria"},
 	{
-		content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
+		content: "Sunt tare multumita de rezultate dupa ce am luat Biotina. Parul arata acum mult mai bine, a devenit mai puternic si mai gros. Scopul principal, cand am inceput cura cu biotina , a fost cresterea in lungime. Acum visul meu a devenit realitate.E pura magie. Mi-am sfatuit prietenele sa foloseasca si ele. Multumesc!!",
 		featuredImage: {node: 
 		{sourceUrl: Girlpng.src}
 		},
 		id: "cG9zdDo5NjIw",
 		
-		title: "LILU"},
+		title: "Victoria"},
 		{
-			content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
+			content: "Pana acum, am suferit literalmente ca trebuia sa imi spal parul aproape in fiecare zi.Paul devenea imediat gras la radacini. Am folosit numeroase sampoane si masti, insa doar Zincul a ajutat. Acum scalpul s-a calmat, nu mai secreta atat de mult sebum. Acum imi spal parul la 3-4 zile . Am observat, de asemenea, ca a inceput sa creasca si mai repede. Nici macar nu am sperat la un efect atat de bun!",
 			
 			featuredImage: {node: 
 				{sourceUrl: Girlpng.src}
 				},
 			id: "cG9zdDo5NjIw",
 		
-			title: "LILU"},
+			title: "Diana"},
 		
 ]
 	  
@@ -134,15 +135,15 @@ const News = [
 					width={300}
 			        height={300}
 				  	/>
-				  {/*		<div className="absolute top-0">
+				 		<div className="absolute top-0 w-5/6 position-bootle-ca">
 							<Image
-							src={raundetSecond}
+							className=""
+							src={BootCa}
 							alt="Picture of the author"
-							width={300}
-			        		height={300}
+							
 				  			/>
 				  		</div>
-				  		<div className="absolute top-0">
+				  		{/*<div className="absolute top-0">
 							<Image
 							src={raundetSecond}
 							alt="Picture of the author"
@@ -413,23 +414,23 @@ const News = [
 				
 					
 				{/*Products*/ }
-				<div className="products container mx-auto my-10  ">
+			{/*	<div className="products container mx-auto my-10  ">
 				
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
 					{ featuredproducts.length ? (
 							featuredproducts.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
 						) : '' }
 					</div>
-				</div>
+				</div>/ }
 				{/*Prodduts*/ }
-		{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
+	{/*		{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
 		
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4">
 						{ products.length ? (
 							products.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
 						) : '' }
 					</div>
-				</div>}
+				</div>}*/ }
 			
 				</div>
 				</div>
