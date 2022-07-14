@@ -19,6 +19,8 @@ import CartItemsContainer from "../src/components/cart/cart-page/CartItemsContai
 import profilePic from "../public/pattern_chant.jpg"
 import Round from "../public/round.png"
 import Kisspng from "../public/kisspng.png"
+import BgfollIconFirst from "../public/block_third/istockphoto-1.png"
+import Bgfoll from "../public/block_third/vypadenie.jpg"
 import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
@@ -180,13 +182,77 @@ const News = [
 				</div>
 		</div>
 
-
+{/*Hero 3*/}
+<div className="w-full relative pt-20 pb-10"> 
+<Image
+		className="object-cover"
+		src={Bgfoll}
+		alt="Picture of the author"
+		layout="fill"
+	  />
+	  <div className=" absolute top-0 bottom-0 left-0 right-0 ownbg"></div>
+	<div className="relative pb-10 text-center text-white">
+	<h2 className=" text-2xl  font-semibold ">AI OBSERVAT URMATOARELE ASPECTE</h2>
+	</div>
+	<div className=" relative flex justify-around flex-wrap text-white">
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+		   <p>Parul cade in cantitate foarte mare</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+		   <p>Parul cade in cantitate foarte mare</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+		   <p>Parul cade in cantitate foarte mare</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+		   <p>Parul cade in cantitate foarte mare</p>
+		</div>
+		<div className="text-center md:w-2/6 py-10">
+		<Image
+		
+		src={BgfollIconFirst}
+		alt="Picture of the author"
+		width={80}
+        height={80}
+	  />
+		   <p>Parul cade in cantitate foarte mare</p>
+		</div>
+	</div>
+</div>
       
    
 	
    
 
-{/*Hero 3*/}
+{/*Hero 4*/}
 <div className=" flex justify-center">
 <div className="md:w-2/6 ">
 			<Accordion/>
