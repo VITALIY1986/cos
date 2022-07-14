@@ -165,9 +165,9 @@ const Nav = () => {
 		</label>
 		<section className="drawer-list bg-very_peri  ">
 		<ul className="text-center mt-30">
-			<li className='mx-5 mt-10'>afasfas</li>
-			<li className='mx-5 mt-10'>afasfas</li>
-			<li className='mx-5 mt-10'>afasfas</li>
+			<li className='mx-5 mt-10'>COS</li>
+			<li className='mx-5 mt-10'>COS</li>
+			<li className='mx-5 mt-10'>COS</li>
 		</ul>
 			</section>
 				</div>
@@ -175,9 +175,9 @@ const Nav = () => {
 				{/*MMenu in mobile*/}
 				<div className={`${ isMenuVisible ? 'max-h-full h-full' : 'h-0' } w-full hidden lg:h-full flex-grow lg:flex lg:items-center lg:w-auto`}>
 					<ul className="text-sm font-medium  lg:flex-grow lg:flex h-full ">
-					<li className='mx-5'>afasfas</li>
-			<li className='mx-5'>afasfas</li>
-			<li className='mx-5'>afasfas</li>
+					<li className='mx-5'>COS</li>
+			<li className='mx-5'>COS</li>
+			<li className='mx-5'>COS</li>
 					</ul>
 					
 					<div className="text-sm font-medium">
