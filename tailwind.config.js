@@ -39,6 +39,9 @@ module.exports = {
         green_cos: {
           DEFAULT: '#747c65'
         },
+        grey_cos: {
+          DEFAULT: '#efefef'
+        },
         very_peri_dark: {
           DEFAULT: '#413f5d'
         },

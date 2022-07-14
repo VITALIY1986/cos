@@ -255,7 +255,7 @@ const News = [
 {/*Hero 4*/}
 
 
-<div className="flex items-center justify-center mt-20 mb-20 flex-col md:flex-row">
+<div className="flex items-center justify-center pt-20 pb-20 flex-col md:flex-row bg-grey_cos">
 		
 			<div className="">
 			    <div className="rounded-full shadow-cos relative w-96 h-96">
@@ -272,35 +272,39 @@ const News = [
 			</div>
 			<div className="mt-20 px-6 md:w-2/6 md:ml-20  md:mt-0 mb-10">
 					<h2 className="text-2xl  font-semibold  block">TI-AI DORI SA SE SCHIMBE ACESTE SITUATII SI:</h2>
-					<div className="mt-4 flex justify-between w-full">
+					<div className="mt-4 flex  w-full">
 					<span className="dot-cos-item-green bg-green_cos rounded-full "></span>
-					<p className="ml-6"> In timpul pieptanarii, pe perie sa ramana maxim 10 fire de par pe zi</p>
+					<p className=" ml-6 w-3/4"> In timpul pieptanarii, pe perie sa ramana maxim 10 fire de par pe zi</p>
 					</div>
 					
 					<div className="mt-2 flex">
-					<span className="w-14 h-6 bg-green_cos rounded-full "></span>
-					<p className="ml-6"> Parul creste foarte rapid, astfel incat poti experimenta diverse tunsor</p>
+					<span className="dot-cos-item-green bg-green_cos rounded-full "></span>
+					<p className="ml-6 w-3/4"> Parul creste foarte rapid, astfel incat poti experimenta diverse tunsor</p>
 					</div>
 					<div className="mt-2 flex">
-					<span className="w-14 h-6 bg-green_cos rounded-full "></span>
-					<p className="ml-6"> Incetezi sa cheltuiesti bani pe mijloace externe ineficiente si sa te concentrezi pe starea interna de sanatate</p>
+					<span className="dot-cos-item-green bg-green_cos rounded-full "></span>
+					<p className="ml-6 w-3/4"> Incetezi sa cheltuiesti bani pe mijloace externe ineficiente si sa te concentrezi pe starea interna de sanatate</p>
 					</div>
 					<div className="mt-2 flex">
-					<span className="w-14 h-6 bg-green_cos rounded-full "></span>
-					<p className="ml-6"> Parul este des, puternic si stralucitor , asa incat primesti mereu priviri admirative</p>
+					<span className="dot-cos-item-green bg-green_cos rounded-full "></span>
+					<p className="ml-6 w-3/4"> Parul este des, puternic si stralucitor , asa incat primesti mereu priviri admirative</p>
 					</div>
 					<div className="mt-2 flex">
-					<span className="w-14 h-6 bg-green_cos rounded-full "></span>
-					<p className="ml-6"> Momentul incaruntirii este mult intarziat</p>
+					<span className="dot-cos-item-green bg-green_cos rounded-full "></span>
+					<p className="ml-6 w-3/4"> Momentul incaruntirii este mult intarziat</p>
 					</div>
 				</div>
-				<h2 className="text-2xl  font-semibold mx-6">SECRETUL ACESTOR REZULTATE ESTE FOLOSIREA VITAMINELOR EFICIENTE</h2>
-<div className=" flex justify-center mt-4">
-<div className="md:w-2/6 ">
+				
+		</div>
+
+		
+<div className=" flex justify-center pb-20 pt-10 md:pt-40 bg-grey_cos">
+<div className="md:w-3/6 ">
+
 			<Accordion/>
 			</div>
-			</div>	
-		</div>
+			</div>
+			
 
 		
 

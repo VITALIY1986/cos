@@ -53,8 +53,8 @@ const Accordion = ({/*{questionsAnswers}*/}) => {
 
   return (
     <> 
-    <div className="faq flex justify-center px-6  ">
-    
+    <div className="faq flex justify-center px-6 flex-col ">
+    <h2 className="text-2xl  font-semibold  text-center mb-10 ">SECRETUL ACESTOR REZULTATE ESTE FOLOSIREA VITAMINELOR EFICIENTE</h2>
       <dl className="faq__list ">{renderedQuestionsAnswers}</dl>
     </div>
     </>
