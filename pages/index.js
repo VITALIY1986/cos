@@ -15,7 +15,7 @@ import { useState } from 'react';
 import { useAuth } from '../src/components/login-function/hooks';
 import Head from "next/head"
 import AliceCarousel from 'react-alice-carousel';
-import Navigation from "../src/components/navigation-chantarelle";
+import CartItemsContainer from "../src/components/cart/cart-page/CartItemsContainer";
 import profilePic from "../public/pattern_chant.jpg"
 import Round from "../public/round.png"
 import Kisspng from "../public/kisspng.png"
@@ -23,10 +23,9 @@ import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 
-import { useModal, Modal } from 'react-morphing-modal';
-import 'react-morphing-modal/dist/ReactMorphingModal.css';
+
 export default function Home (props) {
-	const { modalProps, getTriggerProps, activeModal } = useModal();	
+
 	const { isLoggedIn } = useAuth();
 
 
@@ -128,7 +127,8 @@ const News = [
 	  <div className=" relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
 		<h1 className="text-4xl  font-semibold ">Adevărate vitamine pentru păr</h1>
 		<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
-	
+		<button 
+        className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">book</button>
 	  </div>
 						 
 			</div>	
@@ -180,15 +180,9 @@ const News = [
 				</div>
 		</div>
 
-<div className="flex justify-center">
-		<button  {...getTriggerProps({
-          background: '#f87171',
-        })}  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">book</button>
-		<div>
-      
-      <Modal {...modalProps}>Hello World</Modal>
-	  </div>
-    </div>
+		
+	  
+  
 
 {/*Hero 3*/}
 
