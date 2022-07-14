@@ -135,7 +135,7 @@ const News = [
 					width={300}
 			        height={300}
 				  	/>
-				 		<div className="absolute top-0 w-5/6 position-bootle-ca">
+				 		<div className="absolute top-0 w-52 position-bootle-ca">
 							<Image
 							className=""
 							src={BootCa}
@@ -143,22 +143,20 @@ const News = [
 							
 				  			/>
 				  		</div>
-				  		{/*<div className="absolute top-0">
+				  		<div className="absolute top-0 w-52 position-bootle-za">
 							<Image
-							src={raundetSecond}
+							src={BootCa}
 							alt="Picture of the author"
-							width={300}
-			        		height={300}
+							
 				  			/>
 				  		</div>
-				  		<div className="absolute top-0">
+					<div className="absolute top-0 w-52 position-bootle-la">
 							<Image
 							src={raundetSecond}
 							alt="Picture of the author"
-							width={300}
-			        		height={300}
+						
 				  			/>
-				  		</div>*/}
+				  		</div>
 				</div>
 				
 			</div>
