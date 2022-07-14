@@ -23,10 +23,13 @@ import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 
-
+import { useModal, Modal } from 'react-morphing-modal';
+import 'react-morphing-modal/dist/ReactMorphingModal.css';
 export default function Home (props) {
-
+	const { modalProps, getTriggerProps, activeModal } = useModal();	
 	const { isLoggedIn } = useAuth();
+
+
 const News = [
 	{
 	content: "\n<p>Zincul este unul din produsele Cos Laboratories a carui formula previne fixarea virusilor in celule din mucoasa nazala. </p>\n\n\n\n<p>Zinc, 25 mg de la Cos Laboratories, inhiba dezvoltarea si stopeaza reproducerea microbilor. La nici 24 de ore de la debutul racelii, zincul trebuie administrat pentru eficienta in doze mari. Zincul astfel administrat are succes in prevenirea si tratarea racelilor. </p>\n\n\n\n<p>Comanda ZINC 25 mg de la COS Laboratories! </p>\n\n\n\n<p></p>\n",
@@ -122,14 +125,14 @@ const News = [
 		alt="Picture of the author"
 		layout="fill"
 	  />
-	  <div className="px-6  relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
+	  <div className=" relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
 		<h1 className="text-4xl  font-semibold ">Adevărate vitamine pentru păr</h1>
 		<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
-		<button className="rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">book</button>
+	
 	  </div>
 						 
 			</div>	
-
+			
 	{/*Hero 2*/}
 		<div className="flex items-center justify-center mt-20 mb-20 flex-col md:flex-row">
 		<h2 className="text-2xl text-center mb-20  font-semibold block md:hidden">Restabiliți sănătatea și frumusețea părului tau</h2>
@@ -177,12 +180,21 @@ const News = [
 				</div>
 		</div>
 
-
-
+<div className="flex justify-center">
+		<button  {...getTriggerProps({
+          background: '#f87171',
+        })}  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">book</button>
+		<div>
+      
+      <Modal {...modalProps}>Hello World</Modal>
+	  </div>
+    </div>
 
 {/*Hero 3*/}
+
+
 			<Accordion/>
-			
+		
 			{/*Hero Carousel*/}
 			<HeroCarousel heroCarousel={heroCarousel}/>
 			{/*<a href="myfile.pdf"  download>Download</a>*/}
