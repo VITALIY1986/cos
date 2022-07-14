@@ -135,7 +135,28 @@ const News = [
 					width={300}
 			        height={300}
 				  	/>
-				 		
+				 		<div className="absolute top-0 w-52 position-bootle-ca">
+							<Image
+							
+							src={BootCa}
+							alt="Picture of the author"
+							
+				  			/>
+				  		</div>
+				  		<div className="absolute top-0 w-52 position-bootle-za">
+							<Image
+							src={BootCa}
+							alt="Picture of the author"
+							
+				  			/>
+				  		</div>
+					<div className="absolute top-0 w-52 position-bootle-la">
+							<Image
+							src={BootCa}
+							alt="Picture of the author"
+						
+				  			/>
+				  		</div>
 				</div>
 				
 			</div>
