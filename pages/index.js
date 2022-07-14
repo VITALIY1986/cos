@@ -98,7 +98,7 @@ const News = [
 				{/*Hero 1*/}
 	<div className="main  ">
 	<div className="w-full h-screen relative flex items-center justify-center ">
-		<div className="absolute top-10 left-10 z-10 w-24">
+		<div className="absolute top-5 left-5 z-10 w-24">
 			<div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center  "><Image
 		
 		src={Kisspng}
@@ -132,6 +132,7 @@ const News = [
 
 	{/*Hero 2*/}
 		<div className="flex items-center justify-center mt-20 mb-20 flex-col md:flex-row">
+		<h2 className="text-2xl text-center mb-20  font-semibold block md:hidden">Restabiliți sănătatea și frumusețea părului tau</h2>
 			<div>
 			    <div className="relative">
 			      	<Image
@@ -169,7 +170,7 @@ const News = [
 				
 			</div>
 			<div className="text-center mt-20 px-6 md:w-2/6 md:ml-20  md:mt-0 md:text-left">
-					<h2 className="text-2xl  font-semibold">Restabiliți sănătatea și frumusețea părului tau</h2>
+					<h2 className="text-2xl  font-semibold hidden md:block">Restabiliți sănătatea și frumusețea părului tau</h2>
 					<p className="mt-2">Te deranjeaza aspectul parului si sanatatea scalpului ? Coafura nu arata atat de spectaculos pe cat ti-ai dori?</p>
 					<p className=" mt-4 text-justify text-gray-500 md:text-left">Un numar foarte mare de femei se confrunta cu aceasta situatie. Cu toate acestea, doar acele femei carora le pasa de aspectul si sanatatea lor decid sa nu accepe, ci sa inceapa sa rezolve acesta problema.</p>
 					<p className="  text-justify text-gray-500 md:text-left">Din fericire, exista o intreaga gama de vitamine si minerale care ajuta la refacerea sanatatii parului.</p>
