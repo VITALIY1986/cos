@@ -5,27 +5,30 @@ const Accordion = ({/*{questionsAnswers}*/}) => {
   const [activeIndex, setActiveIndex] = useState(1);
   const questionsAnswers = [
     {
-      question: "How many team members can I invite?",
+      question: "BIOTINA",
       answer:
-        "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
+        "Este cunoscuta sub denumirea de vitamina H sau vitamina B7. Este o vitamina vitala in cresterea parului si in imbunatatirea aspectului acestuia. Conform numeroaselor studii si recenzii, Biotina ajuta parul sa devina sanatos, elastic si puternic. De asemenea, are un rol esential in sanatatea pielii si a unghiilor. Lipsa Biotinei din organism cauzeaza tulburari neuromusculare, forme severe de dermatita si calvitie(chelie).",
     },
     {
-      question: "What is the maximum file upload size?",
+      question: "ZINC",
       answer:
-        "No more than 2GB. All files in your account must fit your allotted storage space.",
+        "Ajuta in asimilarea proteinelor, regleaza productia de sebum, participa la formarea structurii firului de par si accelereaza cresterea parului.",
     },
     {
-      question: "How do I reset my password?",
-      answer: `Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.`,
+      question: "COMPLEXUL DE VITAMINE B",
+      answer: `B3(Niacina) imbunatateste circulatia sanguina la nivelul radacinii parului, iar lipsa acesteia duce la alopecie - chelie partiala.
+
+      B5 (Acid Pantotenic) accelereaza cresterea parului.
+      
+      B6 sporeste efectul altor vitamine, ajutand la intarirea fibrei capilare.
+      
+      B12 stimuleaza reinnoirea foliculilor de par.
+      
+      B1 accelereaza diviziunea celulara si impreuna cu vitamina B8 intaresc fibra capilara.
+      
+      Deficitul de vitamine B provoaca alopecie , iar lipsa vitaminei B9 duce la aparitia firelor albe si caderea precoce a parului.`,
     },
-    {
-      question: "Can I cancel my subscription?",
-      answer: `Yes! Send us a message and we’ll process your request no questions asked.`,
-    },
-    {
-      question: "Do you provide additional support?",
-      answer: `Chat and email support is available 24/7. Phone lines are open during normal business hours.`,
-    },
+   
   ];
   const renderedQuestionsAnswers = questionsAnswers.map((item, index) => {
     const showDescription = index === activeIndex ? "show-description" : "";
@@ -50,7 +53,7 @@ const Accordion = ({/*{questionsAnswers}*/}) => {
 
   return (
     <> 
-    <div className="faq flex justify-center px-6 my-20">
+    <div className="faq flex justify-center px-6 my-20 w-3/6">
     
       <dl className="faq__list ">{renderedQuestionsAnswers}</dl>
     </div>

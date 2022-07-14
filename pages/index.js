@@ -19,6 +19,7 @@ import Navigation from "../src/components/navigation-chantarelle";
 import profilePic from "../public/pattern_chant.jpg"
 import Round from "../public/round.png"
 import Kisspng from "../public/kisspng.png"
+import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 
@@ -94,6 +95,7 @@ const News = [
 	
 
 			<Layout>
+				{/*Hero 1*/}
 	<div className="main  ">
 	<div className="w-full h-screen relative flex items-center justify-center ">
 		<div className="absolute top-10 left-10 z-10 w-24">
@@ -102,7 +104,7 @@ const News = [
 		src={Kisspng}
 		alt="Picture of the author"
 		width={40}
-      height={40}
+        height={40}
 	  /></div>
 	  <div >
 		<Image
@@ -127,6 +129,57 @@ const News = [
 	  </div>
 						 
 			</div>	
+
+	{/*Hero 2*/}
+		<div className="flex items-center justify-center mt-20 mb-20 flex-col md:flex-row">
+			<div>
+			    <div className="relative">
+			      	<Image
+					className="rounded-full"
+					src={raundetSecond}
+					alt="Picture of the author"
+					width={300}
+			        height={300}
+				  	/>
+				  {/*		<div className="absolute top-0">
+							<Image
+							src={raundetSecond}
+							alt="Picture of the author"
+							width={300}
+			        		height={300}
+				  			/>
+				  		</div>
+				  		<div className="absolute top-0">
+							<Image
+							src={raundetSecond}
+							alt="Picture of the author"
+							width={300}
+			        		height={300}
+				  			/>
+				  		</div>
+				  		<div className="absolute top-0">
+							<Image
+							src={raundetSecond}
+							alt="Picture of the author"
+							width={300}
+			        		height={300}
+				  			/>
+				  		</div>*/}
+				</div>
+				
+			</div>
+			<div className="text-center mt-20 px-6 md:w-2/6 md:ml-20  md:mt-0 md:text-left">
+					<h2 className="text-2xl  font-semibold">Restabiliți sănătatea și frumusețea părului tau</h2>
+					<p className="mt-2">Te deranjeaza aspectul parului si sanatatea scalpului ? Coafura nu arata atat de spectaculos pe cat ti-ai dori?</p>
+					<p className=" mt-4 text-justify text-gray-500 md:text-left">Un numar foarte mare de femei se confrunta cu aceasta situatie. Cu toate acestea, doar acele femei carora le pasa de aspectul si sanatatea lor decid sa nu accepe, ci sa inceapa sa rezolve acesta problema.</p>
+					<p className="  text-justify text-gray-500 md:text-left">Din fericire, exista o intreaga gama de vitamine si minerale care ajuta la refacerea sanatatii parului.</p>
+				</div>
+		</div>
+
+
+
+
+{/*Hero 3*/}
 			<Accordion/>
 			
 			{/*Hero Carousel*/}
