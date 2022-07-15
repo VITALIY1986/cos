@@ -20,6 +20,10 @@ import profilePic from "../public/pattern_chant.jpg"
 import Round from "../public/round.png"
 import Kisspng from "../public/kisspng.png"
 import BgfollIconFirst from "../public/block_third/istockphoto-1.png"
+import BgfollIconSecond from "../public/block_third/istockphoto-2.png"
+import BgfollIconThird from "../public/block_third/istockphoto-3.png"
+import BgfollIconFourth from "../public/block_third/istockphoto-4.png"
+import BgfollIconFifth from "../public/block_third/istockphoto-5.png"
 import Girlpng from "../public/second-cos.png"
 import BootCa from "../public/bootle/boot-c.png"
 import Bgfoll from "../public/block_third/vypadenie.jpg"
@@ -198,7 +202,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIconSecond }
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -208,7 +212,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIconThird}
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -218,7 +222,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIconFourth}
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -228,7 +232,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIconFifth}
 		alt="Picture of the author"
 		width={80}
         height={80}
