@@ -414,23 +414,23 @@ const News = [
 				
 					
 				{/*Products*/ }
-			{/*	<div className="products container mx-auto my-10  ">
+			<div className="products container mx-auto my-10  ">
 				
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
 					{ featuredproducts.length ? (
 							featuredproducts.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
 						) : '' }
 					</div>
-				</div>/ }
-				{/*Prodduts*/ }
-	{/*		{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
+				</div>
+			
+	{/*	{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
 		
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4">
 						{ products.length ? (
 							products.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
 						) : '' }
 					</div>
-				</div>}*/ }
+						</div>} */}
 			
 				</div>
 				</div>
