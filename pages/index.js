@@ -26,10 +26,13 @@ import Bgfoll from "../public/block_third/vypadenie.jpg"
 import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
-
+import { useModal, Modal } from 'react-morphing-modal';
+import 'react-morphing-modal/dist/ReactMorphingModal.css';
 
 export default function Home (props) {
-
+	const { modalProps, getTriggerProps, activeModal } = useModal({
+		background: 'white',
+	  });
 	const { isLoggedIn } = useAuth();
 
 
@@ -298,7 +301,7 @@ const News = [
 
 
 
-{/*Hero 5*/}
+
 
 {/*Hero 3*/}
 <div className="w-full relative pt-20 pb-10"> 
@@ -396,7 +399,21 @@ const News = [
 					<h2 className="mai-title text-3xl text-center mb-5 uppercase"><span className="main-title-inner">Categories</span></h2>
 					<ParentCategoriesBlock productCategories={ productCategories }/>
 </div>*/ }{/*<div>	<Login/></div>*/}
-			
+	
+	<div className="pt-20 pb-20 text-center">
+      <button {...getTriggerProps()}  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">Trigger</button>
+      <Modal {...modalProps}>{/*Products*/ }
+			<div className="products container mx-auto my-10  ">
+				
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+					{ featuredproducts.length ? (
+							featuredproducts.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
+						) : '' }
+					</div>
+				</div></Modal>
+    </div>		
+	
+	{/*Hero 5*/}		
 			<div className="px-4">
 				<div className="products container mx-auto pt-20 pb-20 ">
 <AliceCarousel
@@ -411,17 +428,9 @@ const News = [
 							</div>
 					
 			
-				
+							
 					
-				{/*Products*/ }
-			<div className="products container mx-auto my-10  ">
 				
-					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
-					{ featuredproducts.length ? (
-							featuredproducts.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
-						) : '' }
-					</div>
-				</div>
 			
 	{/*	{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
 		
