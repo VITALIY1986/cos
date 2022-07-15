@@ -341,7 +341,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-	  <h3 className="text-xl font-semibold">Unique Experience</h3>
+	  <h3 className="text-xl font-semibold">High Quality</h3>
 		   <p className="mt-2 md:mx-3">Retetele noastre sunt elaborate de specialisti cu experienta in domeniul cercetarii;</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
@@ -352,7 +352,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-	  <h3 className="text-xl font-semibold">Good Support</h3>
+	  <h3 className="text-xl font-semibold">High Quality</h3>
 		   <p className="mt-2 md:mx-3">Linia noastra de productie indeplineste exigentele industriei farmaceutice, avand utilaje de ultima generatie</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
@@ -363,7 +363,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-	  <h3 className="text-xl font-semibold">Nice Gifts</h3>
+	  <h3 className="text-xl font-semibold">High Quality</h3>
 		   <p className="mt-2 md:mx-3">Ambalajele noastre sunt sigure pentru mediu, nu contin plastic si in acelasi timp pastreaza proprietatile produselor timp indelungat.</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
@@ -374,7 +374,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-	  <h3 className="text-xl font-semibold">Individual Approach</h3>
+	  <h3 className="text-xl font-semibold">High Quality</h3>
 		   <p className="mt-2 md:mx-3">Livrarea este gratuita pentru comenzi de peste 150 RON.</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
@@ -385,7 +385,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-	  <h3 className="text-xl font-semibold">Effective Services</h3>
+	  <h3 className="text-xl font-semibold">High Quality</h3>
 		   <p className="mt-2 md:mx-3">We take care about our clients time. Just call us — and we will help you with all the questions.</p>
 		</div>
 	</div>
