@@ -124,7 +124,7 @@ const News = [
 			</div>	
 			
 	{/*Hero 2*/}
-		<div className="flex items-center justify-center mt-20 mb-20 flex-col md:flex-row overflow-hidden">
+		<div className="flex items-center justify-center pt-20 pb-20 flex-col md:flex-row overflow-hidden">
 		<h2 className="text-2xl text-center mb-20  font-semibold block md:hidden">Restabiliți sănătatea și frumusețea părului tau</h2>
 			<div>
 			    <div className="relative">
