@@ -121,10 +121,10 @@ const News = [
 	  <div className="px-6 relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
 		<h1 className="text-4xl  font-semibold ">Adevărate vitamine pentru păr</h1>
 		<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
-		<Link href="/mccm">
+		
 		<button 
         className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">book</button>
-		</Link>
+	
 	  </div>
 						 
 			</div>	
@@ -404,9 +404,9 @@ const News = [
 </div>*/ }{/*<div>	<Login/></div>*/}
 	
 	<div className="pt-10 pb-10 text-center">
-	<Link href="/mccm">
-						<button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">Trigger</button>
-						</Link>
+
+						<button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button>
+						
   {/*Products*/ }
 	{/*		<div className="products container mx-auto my-10  ">
 				
