@@ -243,7 +243,7 @@ const News = [
 {/*Hero 4*/}
 
 
-<div className="flex items-center justify-center pt-20 pb-20 flex-col md:flex-row bg-grey_cos">
+<div className=" flex items-center justify-center pt-20 pb-20 flex-col md:flex-row bg-grey_cos overflow-hidden">
 		
 			<div className="">
 			    <div className="rounded-full shadow-cos relative w-80 h-80">
