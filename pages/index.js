@@ -398,7 +398,7 @@ const News = [
 </div>*/ }{/*<div>	<Login/></div>*/}
 			
 			<div className="px-4">
-				<div className="products container mx-auto mt-20  ">
+				<div className="products container mx-auto pt-20 pb-20 ">
 <AliceCarousel
         autoPlay={true}
         items={items}
