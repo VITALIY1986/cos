@@ -205,7 +205,7 @@ mccm:  category(id: "dGVybTozMjg0") {
   }
 
 
-  products(where: { onSale: true}, first: 5) {
+  products(where: {category: "PAR-landing"}, first: 5) {
     nodes {
       id
       productId: databaseId

@@ -41,7 +41,7 @@ const result = amount/interest;
 	return (
 		<Layout>
 			{ product ? (
-				<div className="single-product container mx-auto my-32  xl:px-0">
+				<div className="single-product container mx-auto mt-32 mb-96 xl:px-0">
 					<div className="grid md:grid-cols-2 gap-4">
 						<div className="product-images relative">
                         { product.featured  ? <div className="bg-blue rounded absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
@@ -64,7 +64,7 @@ const result = amount/interest;
                    
                             <div className='mt-10'>
                             <span className='text-white  bg-black opacity-30 p-3'>{product.sku}</span>
-                              {product?.salePrice   ?  <div className={`${ isLoggedIn ? 'hidden' : 'block mt-4 ' }`}>  <strike className="mr-1 text-red-200 text-xl">₴{price.toFixed(2)}</strike>₴{product?.price}</div> :   <div className="mt-4 text-xl">{isLoggedIn ? login : price.toFixed(2)}</div>}
+                              {product?.salePrice   ?  <div className={`${ isLoggedIn ? 'hidden' : 'block mt-4 ' }`}>  <strike className="mr-1 text-red-200 text-xl">₴{price.toFixed(2)}</strike>₴{product?.price}</div> :   <div className="mt-4 text-xl">{login }</div>}
 					{product?.salePrice  ?  <div className={`${ isLoggedIn ? 'block text-xl mt-4' : 'hidden ' }`}> ₴{par.toFixed(2)}</div> :   ''}
                     </div>
                            {/* <Price salesPrice={product?.price } regularPrice={product?.regularPrice}/>*/}

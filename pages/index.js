@@ -31,7 +31,7 @@ import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 import Link from 'next/link';
-
+import AddToCartButton from '../src/components/cart/AddToCartButton';
 export default function Home (props) {
 	
 	const { isLoggedIn } = useAuth();
@@ -404,8 +404,10 @@ const News = [
 </div>*/ }{/*<div>	<Login/></div>*/}
 	
 	<div className="pt-10 pb-10 text-center">
-
-						<button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button>
+	{ products.length ? (
+							products.map( product => <Link href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button></Link> )
+						) : '' }
+						
 						
   {/*Products*/ }
 	{/*		<div className="products container mx-auto my-10  ">
@@ -437,14 +439,12 @@ const News = [
 					
 				
 			
-	{/*	{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
+{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
 		
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4">
-						{ products.length ? (
-							products.map( product => <ProductHome key={ product.id } isLoggedIn={isLoggedIn} product={ product }/> )
-						) : '' }
+					
 					</div>
-						</div>} */}
+						</div>} 
 			
 				</div>
 				</div>
