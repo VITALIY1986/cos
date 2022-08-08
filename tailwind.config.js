@@ -36,6 +36,9 @@ module.exports = {
         futer: {
           DEFAULT: '#39333c'
         },
+        cart: {
+          DEFAULT: '#f0f0f0'
+        },
         green_cos: {
           DEFAULT: '#747c65'
         },

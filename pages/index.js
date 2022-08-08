@@ -31,7 +31,7 @@ import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 import Link from 'next/link';
-import AddToCartButton from '../src/components/cart/AddToCartButton';
+
 export default function Home (props) {
 	
 	const { isLoggedIn } = useAuth();
@@ -405,7 +405,7 @@ const News = [
 	
 	<div className="pt-10 pb-10 text-center">
 	{ products.length ? (
-							products.map( product => <Link href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button></Link> )
+							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button></Link> )
 						) : '' }
 						
 						

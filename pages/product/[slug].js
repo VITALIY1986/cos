@@ -37,7 +37,7 @@ const result = amount/interest;
     if (router.isFallback) {
         return <div>Loading...</div>
     }
-
+console.log(product.shortDescription);
 	return (
 		<Layout>
 			{ product ? (
@@ -79,6 +79,8 @@ className="singl_product_description mb-5 mt-3 "
 							
 							/>
 						</div>
+                       
+						
 					</div>
 
 				</div>

@@ -6,7 +6,7 @@ const OrderSuccess = ( props ) => {
 		return null;
 	}
 
-	const responseData = "/";
+	const responseData = "/cart";
 
 	window.location.href = responseData;
 

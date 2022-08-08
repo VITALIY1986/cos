@@ -111,7 +111,7 @@ const CartItemsContainer = () => {
 
 	return (
 		<>
-		<div className="hidden    mx-4 md:h-screen md:flex md: justify-center md:items-center ">
+		<div className="hidden    mx-4 md:h-screen md:flex md: justify-center md:items-center bg-cart">
 			{ cart ? (
 				<div className="woo-next-cart-wrapper container">
 					<div className="cart-header grid grid-cols-2 gap-4">

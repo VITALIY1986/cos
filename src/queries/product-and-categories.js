@@ -205,13 +205,14 @@ mccm:  category(id: "dGVybTozMjg0") {
   }
 
 
-  products(where: {category: "PAR-landing"}, first: 5) {
+  products(where: {category: "PAR-landing"}) {
     nodes {
       id
       productId: databaseId
       averageRating
       slug
       description
+      shortDescription
       sku
       image {
         id
