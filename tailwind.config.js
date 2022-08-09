@@ -15,6 +15,7 @@ module.exports = {
         '308px': '19.25rem',
         'sliderlg': '70vh',
         'slidersm': '30vh',
+        'cart': '60vh'
       },
       purplebt:{
         DEFAULT: '#783ea8',

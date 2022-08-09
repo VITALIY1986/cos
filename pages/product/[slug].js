@@ -43,7 +43,7 @@ console.log(product.shortDescription);
 			{ product ? (
 				<div className="single-product container mx-auto mt-32 mb-96 xl:px-0">
 					<div className="grid md:grid-cols-2 gap-4">
-						<div className="product-images relative">
+						<div className="product-images relative h-cart">
                         { product.featured  ? <div className="bg-blue rounded absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
 { product?.salePrice  ? <div className={`${ isLoggedIn ? 'hidden' : 'block bg-red-200 rounded absolute left-2 top-2 z-10 text-white p-2' }`}>{ result.toFixed(0)}%OFF</div> : ''}
 							{ !isEmpty( product?.galleryImages?.nodes ) ? (
