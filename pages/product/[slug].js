@@ -41,7 +41,7 @@ console.log(product.shortDescription);
 	return (
 		<Layout>
 			{ product ? (
-				<div className="single-product container mx-auto mt-32 mb-96 xl:px-0">
+				<div className="single-product container mx-auto pt-32 pb-96 xl:px-0 bg-grey_cos">
 					<div className="grid md:grid-cols-2 gap-4">
 						<div className="product-images relative h-cart">
                         { product.featured  ? <div className="bg-blue rounded absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
