@@ -12,7 +12,7 @@ const Footer = () => (
 					</Link>  
 		
 			
-			<div className="flex">
+			<div className="flex ">
 			<div className="bg-grey_cos p-3 rounded-full mx-1 shadow-xl"><Facebook/></div><div className="bg-bg-grey_cos  p-3 rounded-full mx-1 shadow-xl"><Instagram/></div>
 			</div>
 			</div>
