@@ -16,7 +16,7 @@ const Footer = () => (
 			<div className="bg-grey_cos p-3 rounded-full mx-1 shadow-xl"><Facebook/></div><div className="bg-bg-grey_cos  p-3 rounded-full mx-1 shadow-xl"><Instagram/></div>
 			</div>
 			</div>
-			<div className="mt-6 text-center"><p>© 2019-2020 C.O.S. Laboratories / Toate drepturile rezervate. </p></div>
+			<div className="mt-6 text-center"><p>© 2019-2022 C.O.S. Laboratories / Toate drepturile rezervate. </p></div>
 		</div>
 
 );

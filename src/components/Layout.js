@@ -20,7 +20,7 @@ const Layout = (props) => {
    
         <div className="wrapper">
           <Head>
-         
+      
             <title>COS </title>
           </Head>
           <Header />

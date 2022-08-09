@@ -31,7 +31,7 @@ import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 import Link from 'next/link';
-
+import Script from 'next/script';
 export default function Home (props) {
 	
 	const { isLoggedIn } = useAuth();
@@ -89,8 +89,16 @@ const News = [
 
 	return (
 	
-
+		
 			<Layout>
+				<Script strategy="lazyOnload">
+        {`
+            window.replainSettings = { id: '57c23d8c-ad58-4f57-b0bc-d65f546cf0d4' };
+            (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+            var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+            })('https://widget.replain.cc/dist/client.js');
+        `}
+      </Script>
 				{/*Hero 1*/}
 	<div className="main  ">
 	<div className="w-full bottom-first relative flex items-center justify-center ">
