@@ -86,7 +86,7 @@ const AddToCart = (props) => {
 					disabled={addToCartLoading}
                     onClick={handleAddToCartClick}
                     className={cx(
-                        'px-5 py-2 rounded-sm  text-sm border-solid border-red-400 border border-current',
+                        'px-8 py-5 rounded-sm  text-sm border-solid border-red-400 border border-current',
                         {'hover:bg-red-400 hover:transition delay-150 duration-300 ease-in-out ... hover:text-white hover:border-red-400 ': !addToCartLoading},
                         {'opacity-50 cursor-not-allowed': addToCartLoading}
                     )}
@@ -98,7 +98,7 @@ const AddToCart = (props) => {
             {showViewCart ? (
                 <Link href="/cart">
                     <button
-                        className="px-5 py-2 rounded-sm text-sm border-solid border border-current inline-block hover:bg-red-400 hover:text-white ">Vizualizare coș
+                        className="px-8 py-5 rounded-sm text-sm border-solid border border-current inline-block hover:bg-red-400 hover:text-white ">Vizualizare coș
                      
                     </button>
                 </Link>
