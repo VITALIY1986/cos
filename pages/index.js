@@ -84,7 +84,7 @@ const News = [
 	News.map(( post,index )=>items.push(<Coment key={ post.id } index={index} post={ post } />) );
 
 	
-	console.log(news.map(post =>post))
+	
 
 
 	return (
