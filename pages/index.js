@@ -411,7 +411,7 @@ const News = [
 					<ParentCategoriesBlock productCategories={ productCategories }/>
 </div>*/ }{/*<div>	<Login/></div>*/}
 	
-	<div className="pt-10 pb-10 text-center">
+	<div className="pt-10 pb-10 text-center bg-grey_cos">
 	{ products.length ? (
 							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button></Link> )
 						) : '' }
@@ -429,7 +429,7 @@ const News = [
     </div>		
 	
 	{/*Hero 5*/}		
-			<div className="px-4">
+			<div className="px-4 bg-grey_cos">
 				<div className="products container mx-auto pt-20 pb-20 ">
 <AliceCarousel
         autoPlay={true}
@@ -447,12 +447,7 @@ const News = [
 					
 				
 			
-{		<div className={`${ products.length === 0 ? 'hidden' : 'block products container mx-auto my-10  '}`}>
-		
-					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4">
-					
-					</div>
-						</div>} 
+
 			
 				</div>
 				</div>
