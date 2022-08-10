@@ -110,7 +110,7 @@ const News = [
         `}
       </Script>
 				{/*Hero 1*/}
-	<div className="main  ">
+	<div  className="main  ">
 	<div className="w-full bottom-first relative flex items-center justify-center ">
 		<div className="absolute top-5 left-5 z-10 w-24">
 			<div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center  "><Image
@@ -150,7 +150,7 @@ const News = [
 			</div>	
 			
 	{/*Hero 2*/}
-		<div className="flex items-center justify-center pt-20 pb-20 flex-col md:flex-row overflow-hidden">
+		<div id="pasul-one"  className="flex items-center justify-center pt-20 pb-20 flex-col md:flex-row overflow-hidden">
 		<h2 className="text-2xl text-center mb-20  font-semibold block md:hidden">Restabiliți sănătatea și frumusețea părului tau</h2>
 			<div>
 			    <div className="relative">
@@ -197,7 +197,7 @@ const News = [
 		</div>
 
 {/*Hero 3*/}
-<div className="w-full relative pt-20 pb-10"> 
+<div id="pasul-two" className="w-full relative pt-20 pb-10"> 
 <Image
 		className="object-cover"
 		src={Bgfoll}
@@ -269,7 +269,7 @@ const News = [
 {/*Hero 4*/}
 
 
-<div className=" flex items-center justify-center pt-20 pb-20 flex-col md:flex-row bg-grey_cos ">
+<div id="pasul-three" className=" flex items-center justify-center pt-20 pb-20 flex-col md:flex-row bg-grey_cos ">
 		
 			<div className="">
 			    <div className="rounded-full shadow-cos relative w-80 h-80">
@@ -327,7 +327,7 @@ const News = [
 
 
 {/*Hero 3*/}
-<div className="w-full relative pt-20 pb-10"> 
+<div id="pasul-four" className="w-full relative pt-20 pb-10"> 
 <Image
 		className="object-cover"
 		src={Bgfoll}
@@ -423,7 +423,7 @@ const News = [
 					<ParentCategoriesBlock productCategories={ productCategories }/>
 </div>*/ }{/*<div>	<Login/></div>*/}
 	
-	<div className="pt-10 pb-10 text-center bg-grey_cos">
+	<div id="pasul-five" className="pt-10 pb-10 text-center bg-grey_cos">
 	{ products.length ? (
 							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button></Link> )
 						) : '' }
