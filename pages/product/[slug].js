@@ -64,8 +64,8 @@ console.log(product.shortDescription);
                    
                             <div className='mt-10'>
                             <span className='text-white  bg-black opacity-30 p-3'>{product.sku}</span>
-                              {product?.salePrice   ?  <div className={`${ isLoggedIn ? 'hidden' : 'block mt-4 ' }`}>  <strike className="mr-1 text-red-200 text-xl">₴{price.toFixed(2)}</strike>₴{product?.price}</div> :   <div className="mt-4 text-xl">{login }</div>}
-					{product?.salePrice  ?  <div className={`${ isLoggedIn ? 'block text-xl mt-4' : 'hidden ' }`}> ₴{par.toFixed(2)}</div> :   ''}
+                              {product?.salePrice   ?  <div className={`${ isLoggedIn ? 'hidden' : 'block mt-4 ' }`}>  <strike className="mr-1 text-red-200 text-xl">{price.toFixed(2)}<span className='ml-2'>lei</span></strike>{product?.price}<span className='ml-2'>lei</span></div> :   <div className="mt-4 text-xl">{login }<span className='ml-2'>lei</span></div>}
+					{product?.salePrice  ?  <div className={`${ isLoggedIn ? 'block text-xl mt-4' : 'hidden ' }`}> {par.toFixed(2)}<span className='ml-2'>lei</span></div> :   ''}
                     </div>
                            {/* <Price salesPrice={product?.price } regularPrice={product?.regularPrice}/>*/}
                            <div className="mt-3">
