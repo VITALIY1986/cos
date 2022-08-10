@@ -212,7 +212,7 @@ const CheckoutForm = ({countriesData}) => {
                         <div>
                             {/*Shipping Details*/}
                             <div className="billing-details">
-                                <h2 className="text-xl font-medium mb-4">Деталі доставки</h2>
+                                <h2 className="text-xl font-medium mb-4">DETALII LIVRARE</h2>
                                 <Address
                                     states={theShippingStates}
                                     countries={shippingCountries}
@@ -253,7 +253,7 @@ const CheckoutForm = ({countriesData}) => {
                         {/* Order & Payments*/}
                         <div className="your-orders">
                             {/*	Order*/}
-                            <h2 className="text-xl font-medium mb-4">Ваше замовлення</h2>
+                            <h2 className="text-xl font-medium mb-4">COMANDA DUMNEAVOASTRĂ</h2>
                             <YourOrder cart={cart}/>
 
                             {/*Payment*/}
@@ -263,18 +263,18 @@ const CheckoutForm = ({countriesData}) => {
                                 <button
                                     disabled={isOrderProcessing}
                                     className={cx(
-                                        'bg-blue text-white px-5 py-3 rounded-sm w-auto xl:w-full',
+                                        'bg-red-400 text-white px-5 py-5 rounded-sm w-auto xl:w-full',
                                         {'opacity-50': isOrderProcessing}
                                     )}
                                     type="submit"
                                 >
-                                   Зробити замовлення
+                                   PLASEAZĂ COMANDA
                                 </button>
                             </div>
 
                             {/* Checkout Loading*/}
-                            {isOrderProcessing && <p>Обробка замовлення...</p>}
-                            {requestError && <p>Error : {requestError} :( Будь ласка спробуйте ще раз</p>}
+                            {isOrderProcessing && <p>PROCESAREA COMANDĂ...</p>}
+                            {requestError && <p>Error : {requestError} :( VĂ RUGĂM SĂ ÎNCERCAȚI DIN NOU</p>}
                         </div>
                     </div>
                 </form>
