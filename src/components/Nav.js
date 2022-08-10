@@ -165,11 +165,11 @@ const Nav = () => {
 		</label>
 		<section className="drawer-list bg-very_peri  ">
 		<ul className="text-center mt-30">
-			<li className='mx-5 mt-10'><a href="#pasul-one">PASUL 1</a></li>
-			<li className='mx-5 mt-10'><a href="#pasul-two">PASUL 2</a></li>
-			<li className='mx-5 mt-10'><a href="#pasul-three">PASUL 3</a></li>
-			<li className='mx-5 mt-10'><a href="#pasul-four">PASUL 4</a></li>
-			<li className='mx-5 mt-10'><a href="#pasul-five">PASUL 5</a></li>
+			<li className='mx-5 mt-10'>PASUL 1</li>
+			<li className='mx-5 mt-10'>PASUL 2</li>
+			<li className='mx-5 mt-10'>PASUL 3</li>
+			<li className='mx-5 mt-10'>PASUL 4</li>
+			<li className='mx-5 mt-10'>PASUL 5</li>
 		</ul>
 			</section>
 				</div>
