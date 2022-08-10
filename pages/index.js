@@ -26,6 +26,9 @@ import BgfollIconFourth from "../public/block_third/istockphoto-4.png"
 import BgfollIconFifth from "../public/block_third/istockphoto-5.png"
 import Girlpng from "../public/second-cos.png"
 import BootCa from "../public/bootle/boot-c.png"
+import BootCa1 from "../public/bootle/biotina.png"
+import BootCa2 from "../public/bootle/complex-b.png"
+
 import Bgfoll from "../public/block_third/vypadenie.jpg"
 import raundetSecond from "../public/block_second/raundet_foto.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -166,7 +169,7 @@ const News = [
 				  		</div>
 				  		<div className="absolute top-0 w-52 position-bootle-za">
 							<Image
-							src={BootCa}
+							src={BootCa1}
 							alt="Picture of the author"
 							
 				  			/>
@@ -174,7 +177,7 @@ const News = [
 						  <div className="absolute top-0 w-52 position-bootle-la">
 							<Image
 							
-							src={BootCa}
+							src={BootCa2}
 							alt="Picture of the author"
 							
 				  			/>
