@@ -32,6 +32,13 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 import Link from 'next/link';
 import Script from 'next/script';
+import BgfollIcon1 from "../public/block_third/icons8.png"
+import BgfollIcon2 from "../public/block_third/iconsst.png"
+import BgfollIcon3 from "../public/block_third/icons82.png"
+import BgfollIcon4 from "../public/block_third/icons89.png"
+import BgfollIcon5 from "../public/block_third/icons90.png"
+import BgfollIcon6 from "../public/block_third/icons91.png"
+
 export default function Home (props) {
 	
 	const { isLoggedIn } = useAuth();
@@ -333,7 +340,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIcon6}
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -344,7 +351,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIcon3}
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -355,7 +362,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIcon2}
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -366,7 +373,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIcon1}
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -377,7 +384,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIcon5}
 		alt="Picture of the author"
 		width={80}
         height={80}
@@ -388,7 +395,7 @@ const News = [
 		<div className="text-center md:w-2/6 py-10">
 		<Image
 		
-		src={BgfollIconFirst}
+		src={BgfollIcon4}
 		alt="Picture of the author"
 		width={80}
         height={80}

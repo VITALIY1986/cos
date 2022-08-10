@@ -173,7 +173,7 @@ const CartItemsContainer = () => {
 								</table>
 								<Link href="/checkout">
 									<button className="bg-red-400 text-white w-full py-2 ">
-										<span className="woo-next-cart-checkout-txt">Перейти до оформлення замовлення</span>
+										<span className="woo-next-cart-checkout-txt">PROCEED TO CHECKOUT</span>
 										<i className="fas fa-long-arrow-alt-right"/>
 									</button>
 								</Link>
@@ -186,10 +186,10 @@ const CartItemsContainer = () => {
 				</div>
 			) : (
 				<div className="container mx-auto my-32 px-4 xl:px-0">
-					<h2 className="text-2xl mb-5">У кошику немає товарів</h2>
+					<h2 className="text-2xl mb-5">NU EXISTĂ PRODUSE ÎN COȘ</h2>
 					<Link href="/">
 						<button className=" bg-red-400 text-white px-5 py-3 rounded-sm">
-							<span className="woo-next-cart-checkout-txt">Додати нові продукти</span>
+							<span className="woo-next-cart-checkout-txt">ADAUGĂ PRODUSE NOI</span>
 							<i className="fas fa-long-arrow-alt-right"/>
 						</button>
 					</Link>
@@ -252,7 +252,7 @@ const CartItemsContainer = () => {
 								</table>
 								<Link href="/checkout">
 									<button className="bg-red-400 text-white w-full py-5 ">
-										<span className="woo-next-cart-checkout-txt">Перейти до оформлення замовлення</span>
+										<span className="woo-next-cart-checkout-txt">PROCEED TO CHECKOUT</span>
 										<i className="fas fa-long-arrow-alt-right"/>
 									</button>
 								</Link>
@@ -265,10 +265,10 @@ const CartItemsContainer = () => {
 				</div>
 			) : (
 				<div className="container mx-auto my-32 px-4 xl:px-0">
-					<h2 className="text-2xl mb-5">No items in the cart</h2>
+					<h2 className="text-2xl mb-5">NU EXISTĂ PRODUSE ÎN COȘ</h2>
 					<Link href="/">
-						<button className="bg-purple-600 text-white px-5 py-3 rounded-sm">
-							<span className="woo-next-cart-checkout-txt">Add New Products</span>
+						<button className="bg-red-400 text-white px-5 py-3 rounded-sm">
+							<span className="woo-next-cart-checkout-txt">ADAUGĂ PRODUSE NOI</span>
 							<i className="fas fa-long-arrow-alt-right"/>
 						</button>
 					</Link>
