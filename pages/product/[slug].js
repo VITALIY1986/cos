@@ -13,7 +13,10 @@ export default function Product(props) {
   const red =  isLoggedIn ? true : false;
 
 
-// If the page is not yet generated, this will be displayed
+// If the page is not yet generated, this will be displayed  price(format: RAW)   regularPrice(format: RAW)  salePrice(format: RAW)
+      
+    const  procent =  (product?.regularPrice - product?.price) /  product?.regularPrice * 100;
+ 
   const regular = product?.regularPrice;
  
   const re = product?.regularPrice ;
@@ -45,7 +48,7 @@ console.log(product.shortDescription);
 					<div className="grid md:grid-cols-2 gap-4">
 						<div className="product-images relative h-cart">
                         { product.featured  ? <div className="bg-red-400 rounded absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
-{ product?.salePrice  ? <div className={`${ isLoggedIn ? 'hidden' : 'block bg-red-400 rounded absolute left-2 top-2 z-10 text-white p-2' }`}>{ result.toFixed(0)}%OFF</div> : ''}
+{ product?.salePrice  ? <div className="block bg-red-400 rounded absolute left-2 top-2 z-10 text-white p-2">{ procent.toFixed(0)}%OFF</div> : ''}
 							{ !isEmpty( product?.galleryImages?.nodes ) ? (
                                 <GalleryCarousel gallery={product?.galleryImages?.nodes}/>
 							) : !isEmpty( product.image ) ? (
@@ -64,7 +67,7 @@ console.log(product.shortDescription);
                    
                             <div className='mt-10'>
                             <span className='text-white  bg-black opacity-30 p-3'>{product.sku}</span>
-                              {product?.salePrice   ?  <div className={`${ isLoggedIn ? 'hidden' : 'block mt-4 ' }`}>  <strike className="mr-1 text-red-200 text-xl">{price.toFixed(2)}<span className='ml-2'>lei</span></strike>{product?.price}<span className='ml-2'>lei</span></div> :   <div className="mt-4 text-xl">{login }<span className='ml-2'>lei</span></div>}
+                              {product?.salePrice   ?  <div className='block mt-4'>  <strike className="mr-1 text-red-200 text-xl">{product?.regularPrice}<span className='ml-2'>lei</span></strike>{product?.price}<span className='ml-2'>lei</span></div> :   <div className="mt-4 text-xl">{product?.price }<span className='ml-2'>lei</span></div>}
 					{product?.salePrice  ?  <div className={`${ isLoggedIn ? 'block text-xl mt-4' : 'hidden ' }`}> {par.toFixed(2)}<span className='ml-2'>lei</span></div> :   ''}
                     </div>
                            {/* <Price salesPrice={product?.price } regularPrice={product?.regularPrice}/>*/}
