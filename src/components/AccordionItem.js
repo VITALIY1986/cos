@@ -15,7 +15,7 @@ const AccordionItem = ({
         aria-expanded={ariaExpanded}
         aria-controls={`faq${index + 1}_desc`}
         data-qa="faq__question-button"
-        className={`faq__question-button ${fontWeightBold}`}
+        className={`faq__question-button text-xl ${fontWeightBold}`}
         onClick={onClick}
       >
         {item.question}
