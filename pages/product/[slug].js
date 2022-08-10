@@ -48,7 +48,7 @@ console.log(product.shortDescription);
 					<div className="grid md:grid-cols-2 gap-4">
 						<div className="product-images relative h-cart">
                         { product.featured  ? <div className="bg-red-400 rounded-full absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
-{ product?.salePrice  ? <div className=" bg-red-400 rounded-full absolute left-2 top-2 z-10 text-white p-6 w-20 h-20 flex justify-center items-center">{ procent.toFixed(0)}%OFF</div> : ''}
+{ product?.salePrice  ? <div className=" bg-red-400 rounded-full absolute left-2 top-2 z-10 text-white p-6 w-20 h-20 flex justify-center items-center">-{ procent.toFixed(0)}%</div> : ''}
 							{ !isEmpty( product?.galleryImages?.nodes ) ? (
                                 <GalleryCarousel gallery={product?.galleryImages?.nodes}/>
 							) : !isEmpty( product.image ) ? (
