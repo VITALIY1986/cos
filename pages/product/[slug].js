@@ -47,8 +47,8 @@ console.log(product.shortDescription);
 				<div className="single-product container mx-auto pt-32 pb-96 xl:px-0 bg-grey_cos">
 					<div className="grid md:grid-cols-2 gap-4">
 						<div className="product-images relative h-cart">
-                        { product.featured  ? <div className="bg-red-400 rounded absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
-{ product?.salePrice  ? <div className="block bg-red-400 rounded absolute left-2 top-2 z-10 text-white p-2">{ procent.toFixed(0)}%OFF</div> : ''}
+                        { product.featured  ? <div className="bg-red-400 rounded-full absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
+{ product?.salePrice  ? <div className=" bg-red-400 rounded-full absolute left-2 top-2 z-10 text-white p-6 w-20 h-20 flex justify-center items-center">{ procent.toFixed(0)}%OFF</div> : ''}
 							{ !isEmpty( product?.galleryImages?.nodes ) ? (
                                 <GalleryCarousel gallery={product?.galleryImages?.nodes}/>
 							) : !isEmpty( product.image ) ? (
@@ -75,7 +75,7 @@ console.log(product.shortDescription);
 							<AddToCartButton className="mt-3"    product={ product }/>
                             </div>
                             <div
-className="singl_product_description mb-5 mt-3 "
+className="singl_product_description mb-5 mt-10 "
 								dangerouslySetInnerHTML={ {
 									__html: product.description,
 								} }
