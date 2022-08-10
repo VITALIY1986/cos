@@ -58,9 +58,9 @@ const CartItem = ( {
 
 	return (
 		
-		<div className="woo-next-cart-item" key={ item.productId }>
-            <div>Продукт </div>
-			<div className=" flex mt-2">
+		<div className="woo-next-cart-item " key={ item.productId }>
+          
+			<div className=" flex mt-2 mb-3">
 				{/* Remove item */}
 				
                 <img width="200" src={ item.image.sourceUrl } srcSet={ item.image.srcSet } alt={ item.image.title }/>
@@ -68,13 +68,13 @@ const CartItem = ( {
 			
 				
 		
-		<span className='text-xl'>	{ item.name }</span>
-            <div className='mt-6'>Ціна -<span className="ml-3 woo-next-cart-element">{ ( 'string' !== typeof item.price ) ? item.price.toFixed( 2 ) : item.price }</span></div>
+		<span className='text-xl '>	{ item.name }</span>
+            <div className='mt-6'>PRICE -<span className="ml-3 woo-next-cart-element">{ ( 'string' !== typeof item.price ) ? item.price.toFixed( 2 ) : item.price }</span></div>
 		
 
 			{/* Qty Input */ }
             <div className='mt-2'>
-			<span className="woo-next-cart-element woo-next-cart-qty">Кількість - 
+			<span className="woo-next-cart-element woo-next-cart-qty">CANTITATE - 
 				{/* @TODO Need to update this with graphQL query */ }
 				<input
 					type="number"
@@ -87,7 +87,7 @@ const CartItem = ( {
 			</span>
             </div>
             <div className='mt-2'>
-			Всього -	<span className='ml-3'>{ ( 'string' !== typeof item.totalPrice ) ? item.totalPrice.toFixed( 2 ) : item.totalPrice }</span>
+			TOTAL -	<span className='ml-3'>{ ( 'string' !== typeof item.totalPrice ) ? item.totalPrice.toFixed( 2 ) : item.totalPrice }</span>
                 </div>
 		</div>
 		
