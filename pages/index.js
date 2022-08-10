@@ -141,7 +141,7 @@ const News = [
 		<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
 		
 		{ products.length ? (
-							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button></Link> )
+							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">CUMPĂRĂ</button></Link> )
 						) : '' }
 						
 	
@@ -425,7 +425,7 @@ const News = [
 	
 	<div id="pasul-five" className="pt-10 pb-10 text-center bg-grey_cos">
 	{ products.length ? (
-							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">BOOK</button></Link> )
+							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className=" rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">CUMPĂRĂ</button></Link> )
 						) : '' }
 						
 						

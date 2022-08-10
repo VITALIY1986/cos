@@ -13,7 +13,7 @@ const Footer = () => (
 		
 			
 			<div className="flex mt-3">
-			<div className="bg-grey_cos  p-3 rounded-full mx-1 shadow-xl"><Facebook/></div><div className="bg-grey_cos  p-3 rounded-full mx-1 shadow-xl"><Instagram/></div>
+			<div className="bg-grey_cos  p-3 rounded-full mx-1 shadow-xl"><a href="https://www.facebook.com/COS.Laboratories/"><Facebook/></a></div><div className="bg-grey_cos  p-3 rounded-full mx-1 shadow-xl"><a href="https://www.instagram.com/cos_laboratories/"><Instagram/></a></div>
 			</div>
 			</div>
 			<div className=" mt-6 text-center"><p>© 2019-2022 C.O.S. Laboratories / Toate drepturile rezervate. </p></div>
