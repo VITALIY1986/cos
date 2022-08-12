@@ -115,7 +115,7 @@ const CartItemsContainer = () => {
 			{ cart ? (
 				<div className="woo-next-cart-wrapper container bg-grey_cos">
 					<div className="cart-header grid grid-cols-2 gap-4">
-						<h1 className="text-2xl mb-5 uppercase">COŞ</h1>
+						<h1 className="text-2xl mb-5 uppercase font-semibold">COŞ</h1>
 						{/*Clear entire cart*/}
 						<div className="clear-cart text-right">
 							<button className="px-4 py-1 bg-red-400 text-white rounded-sm w-auto" onClick={ ( event ) => handleClearCart( event ) } disabled={ clearCartProcessing }>
@@ -204,7 +204,7 @@ const CartItemsContainer = () => {
 			{ cart ? (
 				<div className="woo-next-cart-wrapper  bg-grey_cos py-32 px-4">
 					<div className="cart-header grid grid-cols-2 gap-4">
-						<h1 className="text-2xl mb-5 uppercase">COŞ</h1>
+						<h1 className="text-2xl mb-5 uppercase font-semibold">COŞ</h1>
 						{/*Clear entire cart*/}
 						<div className="clear-cart text-right">
 							<button className="px-4 py-2 bg-red-400 text-white rounded-sm w-auto" onClick={ ( event ) => handleClearCart( event ) } disabled={ clearCartProcessing }>

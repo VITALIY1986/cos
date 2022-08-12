@@ -68,8 +68,8 @@ const CartItem = ( {
 			
 				
 		
-		<span className='text-xl '>	{ item.name }</span>
-            <div className='mt-6'>PRICE -<span className="ml-3 woo-next-cart-element">{ ( 'string' !== typeof item.price ) ? item.price.toFixed( 2 ) : item.price }</span></div>
+		<span className='text-xl font-semibold'>	{ item.name }</span>
+            <div className='mt-6'>PRICE -<span className="ml-3 woo-next-cart-element font-semibold">{ ( 'string' !== typeof item.price ) ? item.price.toFixed( 2 ) : item.price }</span></div>
 		
 
 			{/* Qty Input */ }
@@ -80,14 +80,14 @@ const CartItem = ( {
 					type="number"
 					min="1"
 					data-cart-key={ item.cartKey }
-					className={ `woo-next-cart-qty-input form-control ml-3${ updateCartProcessing ? 'opacity-25 cursor-not-allowed' : '' } ` }
+					className={ `woo-next-cart-qty-input form-control ml-3 font-semibold ${ updateCartProcessing ? 'opacity-25 cursor-not-allowed' : '' } ` }
 					value={ productCount }
 					onChange={ ( event ) => handleQtyChange( event, item.cartKey ) }
 				/>
 			</span>
             </div>
-            <div className='mt-2'>
-			TOTAL -	<span className='ml-3'>{ ( 'string' !== typeof item.totalPrice ) ? item.totalPrice.toFixed( 2 ) : item.totalPrice }</span>
+            <div className='mt-2 '>
+			TOTAL -	<span className='ml-3 font-semibold'>{ ( 'string' !== typeof item.totalPrice ) ? item.totalPrice.toFixed( 2 ) : item.totalPrice }</span>
                 </div>
 		</div>
 		

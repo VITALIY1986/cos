@@ -62,13 +62,13 @@ console.log(product.shortDescription);
 							) : null }
 						</div>
 						<div className="product-info px-4 mt-10 lg:mt-0">
-							<h4 className="products-main-title text-2xl uppercase">{ product.name }</h4>
+							<h4 className="products-main-title text-2xl uppercase font-semibold">{ product.name }</h4>
 							
                    
                             <div className='mt-10'>
-                            <span className='text-white  bg-black opacity-30 p-3'>{product.sku}</span>
+                            <span className=' text-very_peri'>{product.sku}</span>
                               {product?.salePrice   ?  <div className='block mt-4'>  <strike className=" text-red-200 text-2xl">{product?.regularPrice}<span className='ml-2 mr-3'></span></strike><span className='text-2xl'>{product?.price}</span><span className='ml-2'>lei</span></div> :   <div className="mt-4 text-2xl">{product?.price }<span className='ml-2'>lei</span></div>}
-					{product?.salePrice  ?  <div className={`${ isLoggedIn ? 'block text-xl mt-4' : 'hidden ' }`}> {par.toFixed(2)}<span className='ml-2'>lei</span></div> :   ''}
+				
                     </div>
                            {/* <Price salesPrice={product?.price } regularPrice={product?.regularPrice}/>*/}
                            <div className="mt-3">
