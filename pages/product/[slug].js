@@ -67,7 +67,7 @@ console.log(product.shortDescription);
                    
                             <div className='mt-10'>
                             <span className=' text-very_peri'>{product.sku}</span>
-                              {product?.salePrice   ?  <div className='block mt-4'>  <strike className=" text-red-200 text-2xl">{product?.regularPrice}<span className='ml-2 mr-3'></span></strike><span className='text-2xl'>{product?.price}</span><span className='ml-2'>lei</span></div> :   <div className="mt-4 text-2xl">{product?.price }<span className='ml-2'>lei</span></div>}
+                              {product?.salePrice   ?  <div className='block mt-4'>  <strike className=" text-red-200 text-2xl ">{product?.regularPrice}<span ></span></strike><span className='ml-3 text-2xl bg-white rounded-full px-3 text-gray-500'>{product?.price}  lei</span></div> :   <div className="mt-4 text-2xl">{product?.price }<span className='ml-2'>lei</span></div>}
 				
                     </div>
                            {/* <Price salesPrice={product?.price } regularPrice={product?.regularPrice}/>*/}
