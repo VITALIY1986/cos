@@ -30,7 +30,13 @@ import BootCa1 from "../public/bootle/biotina.png"
 import BootCa2 from "../public/bootle/complex-b.png"
 
 import Bgfoll from "../public/block_third/vypadenie.jpg"
+import Bgfoll2 from "../public/block_third/feeling.jpg"
+
 import raundetSecond from "../public/block_second/raundet_foto.jpg"
+import Andrea from "../public/block_second/Andrea.jpg"
+import Cristina from "../public/block_second/Cristina.jpg"
+
+import Adina from "../public/block_second/Adina.jpg"
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 import Link from 'next/link';
@@ -51,28 +57,28 @@ const News = [
 	{
 	content: " Datorita Vitaminei C, pe care o consum regulat de cateva luni, am reuit sa transform parul tern , fara luciu, intr-unul stralucitor si sanatos. Am mai observat ca nu se mai deterioreaza atat de usor de  la soare, apa sarata sau aer uscat.",
 	featuredImage: {node: 
-		{sourceUrl: Girlpng.src}
+		{sourceUrl: Andrea.src}
 		},
 	id: "cG9zdDo5NjIw",
-	
-	title: "Maria"},
+	src: "https://www.instagram.com/andreeacristinari/?hl=en",
+	title: "Andreea Cristinari"},
 	{
 		content: "Sunt tare multumita de rezultate dupa ce am luat Biotina. Parul arata acum mult mai bine, a devenit mai puternic si mai gros. Scopul principal, cand am inceput cura cu biotina , a fost cresterea in lungime. Acum visul meu a devenit realitate.E pura magie. Mi-am sfatuit prietenele sa foloseasca si ele. Multumesc!!",
 		featuredImage: {node: 
-		{sourceUrl: Girlpng.src}
+		{sourceUrl: Adina.src}
 		},
 		id: "cG9zdDo5NjIw",
-		
-		title: "Victoria"},
+		src: "https://www.instagram.com/adinamititelu.wella/?hl=en",
+		title: "Adina Mititelu"},
 		{
 			content: "Pana acum, am suferit literalmente ca trebuia sa imi spal parul aproape in fiecare zi.Paul devenea imediat gras la radacini. Am folosit numeroase sampoane si masti, insa doar Zincul a ajutat. Acum scalpul s-a calmat, nu mai secreta atat de mult sebum. Acum imi spal parul la 3-4 zile . Am observat, de asemenea, ca a inceput sa creasca si mai repede. Nici macar nu am sperat la un efect atat de bun!",
 			
 			featuredImage: {node: 
-				{sourceUrl: Girlpng.src}
+				{sourceUrl: Cristina.src}
 				},
 			id: "cG9zdDo5NjIw",
-		
-			title: "Diana"},
+			src: "https://www.instagram.com/cristinacioanca/?hl=en",
+			title: "Cristina Cioanca"},
 		
 ]
 	  
@@ -330,7 +336,7 @@ const News = [
 <div id="pasul-four" className="w-full relative pt-20 pb-10"> 
 <Image
 		className="object-cover"
-		src={Bgfoll}
+		src={Bgfoll2}
 		alt="Picture of the author"
 		layout="fill"
 	  />

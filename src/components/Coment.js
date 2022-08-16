@@ -26,7 +26,7 @@ const Post = ( props ) => {
                    <p class="leading-relaxed mt-2" >{post.content}</p>
                    <span class="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
                    <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">	{ post.title ? post.title : '' }</h2>
-                   <p class="text-red-500">Instagram profile</p>
+                   <p class="text-red-500"><a href={post.src}>Instagram profile</a></p>
                  </div>
                </div>
                </>
