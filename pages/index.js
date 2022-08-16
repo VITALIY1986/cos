@@ -195,7 +195,7 @@ const News = [
 				
 			</div>
 			<div className="text-center mt-20 px-6 md:w-2/6 md:ml-20  md:mt-0 md:text-left">
-					<h2 className="text-2xl  font-semibold hidden md:block">Restabiliți sănătatea și frumusețea părului tau</h2>
+					<h2 className="text-2xl  font-semibold hidden md:block">Restabileste sănătatea și frumusețea părului tau</h2>
 					<p className="mt-2">Te deranjeaza aspectul parului si sanatatea scalpului ? Coafura nu arata atat de spectaculos pe cat ti-ai dori?</p>
 					<p className=" mt-4 text-justify text-gray-500 md:text-left">Un numar foarte mare de femei se confrunta cu aceasta situatie. Cu toate acestea, doar acele femei carora le pasa de aspectul si sanatatea lor decid sa nu accepe, ci sa inceapa sa rezolve acesta problema.</p>
 					<p className="  text-justify text-gray-500 md:text-left">Din fericire, exista o intreaga gama de vitamine si minerale care ajuta la refacerea sanatatii parului.</p>
@@ -299,7 +299,7 @@ const News = [
 					
 					<div className="mt-2 flex">
 					<span className="dot-cos-item-green bg-green_cos rounded-full "></span>
-					<p className="ml-6 w-3/4"> Parul creste foarte rapid, astfel incat poti experimenta diverse tunsor</p>
+					<p className="ml-6 w-3/4"> Parul creste foarte rapid, astfel incat poti experimenta diverse tunsori</p>
 					</div>
 					<div className="mt-2 flex">
 					<span className="dot-cos-item-green bg-green_cos rounded-full "></span>
@@ -356,7 +356,7 @@ const News = [
 		width={80}
         height={80}
 	  />
-	  <h3 className="text-xl font-semibold">MATERIALE PRIME</h3>
+	  <h3 className="text-xl font-semibold">MATERII PRIME</h3>
 		   <p className="mt-2 md:mx-3">Sunt obtinute din materii prime de cea mai inalta calitate, alese cu grija de la furnizori de top din Europa</p>
 		</div>
 		<div className="text-center md:w-2/6 py-10">
