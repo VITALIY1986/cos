@@ -547,3 +547,14 @@ button:focus-visible {
 .position-bootle-la{
   transform: translate(174px,98px) rotate(11deg);
 }
+
+.anakausug {
+  
+  
+animation: radial-anakausug 1s infinite;
+}
+@keyframes radial-anakausug {
+  0% { box-shadow: 0 0 0 0px rgba(255, 168, 45, 0.5); }  
+   
+  100% { box-shadow: 0 0 0 40px rgba(255, 189, 82, 0); }
+  }
