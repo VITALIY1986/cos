@@ -165,11 +165,9 @@ const Nav = () => {
 		</label>
 		<section className="drawer-list bg-very_peri  ">
 		<ul className="text-center mt-30">
-			<li className='mx-5 mt-10'>PASUL 1</li>
-			<li className='mx-5 mt-10'>PASUL 2</li>
-			<li className='mx-5 mt-10'>PASUL 3</li>
-			<li className='mx-5 mt-10'>PASUL 4</li>
-			<li className='mx-5 mt-10'>PASUL 5</li>
+			<li className='mx-5 mt-10'><a href="https://www.cos-laboratories.com/magazin/">Magazin</a></li>
+			<li className='mx-5 mt-10'><a href="https://www.cos-laboratories.com/magazin/">Contact</a></li>
+			
 		</ul>
 			</section>
 				</div>
@@ -177,11 +175,9 @@ const Nav = () => {
 				{/*MMenu in mobile*/}
 				<div className={`${ isMenuVisible ? 'max-h-full h-full' : 'h-0' } w-full hidden lg:h-full flex-grow lg:flex lg:items-center lg:w-auto`}>
 					<ul className="text-sm font-medium  lg:flex-grow lg:flex h-full ">
-					<li className='mx-5'><a href="#pasul-one">PASUL 1</a></li>
-					<li className='mx-5'><a href="#pasul-two">PASUL 2</a></li>
-					<li className='mx-5'><a href="#pasul-three">PASUL 3</a></li>
-					<li className='mx-5'><a href="#pasul-four">PASUL 4</a></li>
-					<li className='mx-5'><a href="#pasul-five">PASUL 5</a></li>
+					<li className='mx-5'><a href="https://www.cos-laboratories.com/magazin/">Magazin</a></li>
+					<li className='mx-5'><a href="">Contact</a></li>
+					
 					
 					</ul>
 					
