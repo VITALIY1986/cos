@@ -25,8 +25,8 @@ const YourOrder = ( { cart } ) => {
 						{/*Total*/}
 						<tr className="bg-green_cos text-white">
 							<td className=""/>
-							<td className="woo-next-checkout-total font-normal text-xl py-10 ">CANTITATE FINALA</td>
-							<td className="woo-next-checkout-total font-bold text-xl">{ cart.totalProductsPrice }</td>
+							<td className="woo-next-checkout-total font-normal text-xl py-10 px-3">CANTITATE FINALA</td>
+							<td className="woo-next-checkout-total font-bold text-xl px-3">{ cart.totalProductsPrice }</td>
 						</tr>
 						{/* <tr className="">
 							<td className=""/>
