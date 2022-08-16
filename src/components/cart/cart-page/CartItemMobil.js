@@ -68,7 +68,7 @@ const CartItem = ( {
 			
 				
 		
-		<span className='text-xl font-semibold'>	{ item.name }</span>
+		<span className='text-2xl font-semibold upp'>	{ item.name }</span>
             <div className='mt-6'>PRICE -<span className="ml-3 woo-next-cart-element font-semibold">{ ( 'string' !== typeof item.price ) ? item.price.toFixed( 2 ) : item.price }</span></div>
 		
 
