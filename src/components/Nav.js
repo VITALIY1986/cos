@@ -165,8 +165,9 @@ const Nav = () => {
 		</label>
 		<section className="drawer-list bg-very_peri  ">
 		<ul className="text-center mt-30">
+		<li className='mx-5 mt-10'><a href="/">Acasa</a></li>
 			<li className='mx-5 mt-10'><a href="https://www.cos-laboratories.com/magazin/">Magazin</a></li>
-			<li className='mx-5 mt-10'><a href="https://www.cos-laboratories.com/magazin/">Contact</a></li>
+			<li className='mx-5 mt-10'><a href="/contact">Contact</a></li>
 			
 		</ul>
 			</section>
@@ -175,8 +176,9 @@ const Nav = () => {
 				{/*MMenu in mobile*/}
 				<div className={`${ isMenuVisible ? 'max-h-full h-full' : 'h-0' } w-full hidden lg:h-full flex-grow lg:flex lg:items-center lg:w-auto`}>
 					<ul className="text-sm font-medium  lg:flex-grow lg:flex h-full ">
+					<li className='mx-5'><a href="/">Acasa</a></li>
 					<li className='mx-5'><a href="https://www.cos-laboratories.com/magazin/">Magazin</a></li>
-					<li className='mx-5'><a href="">Contact</a></li>
+					<li className='mx-5'><a href="/contact">Contact</a></li>
 					
 					
 					</ul>
