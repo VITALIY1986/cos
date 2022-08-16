@@ -44,7 +44,7 @@ console.log(product.shortDescription);
 	return (
 		<Layout>
 			{ product ? (
-				<div className="single-product container mx-auto pt-32 pb-96 xl:px-0 bg-grey_cos">
+				<div className="single-product  mx-auto pt-32 pb-96 xl:px-0 bg-grey_cos">
 					<div className="grid md:grid-cols-2 gap-4">
 						<div className="product-images relative h-cart">
                         { product.featured  ? <div className="bg-red-400 rounded-full absolute right-2 top-2 z-10 text-white p-2">NEW</div>: ''}
@@ -67,7 +67,7 @@ console.log(product.shortDescription);
                    
                             <div className='mt-10'>
                             <span className=' text-very_peri'>{product.sku}</span>
-                              {product?.salePrice   ?  <div className='block mt-4'>  <strike className=" text-red-200 text-2xl ">{product?.regularPrice}<span ></span></strike><span className='ml-3 text-2xl bg-white rounded-full px-3 text-gray-500'>{product?.price}  lei</span></div> :   <div className="mt-4 text-2xl">{product?.price }<span className='ml-2'>lei</span></div>}
+                              {product?.salePrice   ?  <div className='block mt-4'>  <strike className=" text-red-200 text-2xl ">{product?.regularPrice}<span ></span></strike><span className='ml-3 text-2xl bg-white rounded-full px-6 py-1 text-gray-500'>{product?.price}  lei</span></div> :   <div className="mt-4 text-2xl">{product?.price }<span className='ml-2'>lei</span></div>}
 				
                     </div>
                            {/* <Price salesPrice={product?.price } regularPrice={product?.regularPrice}/>*/}

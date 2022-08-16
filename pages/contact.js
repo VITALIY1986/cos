@@ -29,7 +29,7 @@ export default function Categories ( props ) {
         <div className="text-center md:w-2/6 py-10">
 	
 	  <h3 className="text-xl font-semibold">CONTACT</h3>
-      <span class="inline-block h-1 w-1/3 rounded bg-red-500 mt-6 mb-4"></span>
+       <span class="inline-block h-1 w-1/3 rounded bg-red-500 mt-6 mb-4"></span>
 		   <p className="mt-2 md:mx-3">+40 743 505 206</p>
            <p className="mt-2 md:mx-3">office@cos-laboratories.com</p>
 		</div>
