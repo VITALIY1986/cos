@@ -143,8 +143,8 @@ const News = [
 		layout="fill"
 	  />
 	  <div className="px-6 relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
-		<h1 className="text-4xl  font-semibold ">Adevărate vitamine pentru păr</h1>
-		<h3 className="mt-3  text-2xl">Reface-ți rapid părul</h3>
+		<h1 className="text-4xl  font-semibold ">Vitamine pentru par complex de recuperare </h1>
+		<h3 className="mt-3  text-2xl">Vitamine naturale de la producător</h3>
 		
 		{ products.length ? (
 							products.map( product => <Link key="product?.slug" href={ `/product/${ product?.slug }`} ><button  className="anakausug rounded-full mt-10 px-20 py-3 bg-red-400 text-xl text-white md:px-20 md:py-2">CUMPĂRĂ</button></Link> )
