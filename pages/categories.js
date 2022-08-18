@@ -11,8 +11,8 @@ export default function Categories ( props ) {
 		<Layout>
 			
 			{/*Categories*/}
-			<h2 className="text-2xl ml-3 uppercase my-10">Magazin</h2>
-			<div className=" flex flex-wrap  justify-around">
+			<h2 className="text-2xl ml-3 uppercase mt-10">Magazin</h2>
+			<div className=" flex flex-wrap  justify-around my-20">
 				
 				{ productCategories.length ? (
 							productCategories

@@ -13,13 +13,13 @@ const ParentCategoryBlock = ( props ) => {
 					<Image
 						className=" mx-3 "
 						layout="fill"
-						containerClassNames="h-32 w-32"
+						containerClassNames="h-28 w-28"
 						sourceUrl={ category?.image?.sourceUrl ?? '' }
 						defaultImgUrl={DEFAULT_CATEGORY_IMG_URL}
 						altText={category?.image?.altText }
 					/>
-					<div className="product-title-container p-3">
-						<h3 className="product-title text-lg font-medium  bg-gradient-to-r ">{category?.name}</h3>
+					<div className=" pt-3">
+						<h3 className=" text-lg font-medium   ">{category?.name}</h3>
 					
 					</div>
 				</a>
