@@ -21,7 +21,8 @@ const Layout = (props) => {
         <div className="wrapper">
           <Head>
       
-            <title>COS </title>
+            <title>VITAMINE PENTRU PAR</title>
+            
           </Head>
           <Header />
         
