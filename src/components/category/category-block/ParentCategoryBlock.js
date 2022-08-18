@@ -11,15 +11,15 @@ const ParentCategoryBlock = ( props ) => {
 			<Link href={`/category/${category?.slug}`}>
 				<a>
 					<Image
-						className="justify-center "
+						className=" mx-3 "
 						layout="fill"
-						containerClassNames="h-24 w-24"
+						containerClassNames="h-32 w-32"
 						sourceUrl={ category?.image?.sourceUrl ?? '' }
 						defaultImgUrl={DEFAULT_CATEGORY_IMG_URL}
 						altText={category?.image?.altText }
 					/>
 					<div className="product-title-container p-3">
-						<h3 className="product-title text-lg font-medium  bg-gradient-to-r  p-3">{category?.name}</h3>
+						<h3 className="product-title text-lg font-medium  bg-gradient-to-r ">{category?.name}</h3>
 					
 					</div>
 				</a>
