@@ -23,9 +23,9 @@ export default function CategorySingle( props ) {
 
     return (
         <Layout>
-            <div className="product-categories-container container mx-auto my-32  xl:px-0">
+            <div className="product-categories-container   py-32  xl:px-0 px-3 bg-grey_cos">
                 { categoryName ? <h3 className="text-2xl mb-5 uppercase">{ categoryName }</h3> : '' }
-                <div className="product-categories grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+                <div className="product-categories grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
                     { undefined !== products && products?.length ? (
                         products.map( product =>  <Product key={ product?.id } isLoggedIn={isLoggedIn} product={ product } /> )
                     ) : ''}
