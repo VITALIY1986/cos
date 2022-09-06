@@ -24,6 +24,7 @@ const Layout = (props) => {
             <title>Complex de vitamine pentru păr - direct de la producător</title>
             <meta name="description" content="C.O.S. Laboratories oferă un complex de vitamine pentru păr la un preț avantajos 15%  ✅ reducere pentru comenzile peste 2 transport gratuit!"/>
             <meta name="google-site-verification" content="5sT3_P7tKTbA9RuTPkiQlpDpXBK84GG89RcmtVHR-Dw" />
+            <meta name="robots" content="index,follow" />
           </Head>
           <Header />
         
