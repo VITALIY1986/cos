@@ -8,7 +8,7 @@ const Footer = () => (
 		
 			<div className="w-24">
 	
-						<Image  src={profilePic}  />
+						<Image  src={profilePic} alt="C.O.S. Laboratories" />
 						</div>
 		
 			
