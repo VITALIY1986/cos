@@ -22,7 +22,7 @@ const Layout = (props) => {
           <Head>
       
             <title>Vitamine pentru par</title>
-            
+            <meta name="google-site-verification" content="5sT3_P7tKTbA9RuTPkiQlpDpXBK84GG89RcmtVHR-Dw" />
           </Head>
           <Header />
         
