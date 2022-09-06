@@ -122,7 +122,7 @@ const News = [
 			<div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center  "><Image
 		
 		src={Kisspng}
-		alt="Picture of the author"
+		alt=""
 		width={40}
         height={40}
 	  /></div>
@@ -130,7 +130,7 @@ const News = [
 		<Image
 		className="App-logo"
 		src={Round}
-		alt="Picture of the author"
+		alt=""
 		width={100}
 		height={100}
 	  /></div>	
@@ -139,7 +139,7 @@ const News = [
 		<Image
 		className="object-cover"
 		src={profilePic}
-		alt="Picture of the author"
+		alt="complex de vitamine pentru par de la C.O.S. Laboratories"
 		layout="fill"
 	  />
 	  <div className="px-6 relative w-full text-left translate-y-60 md:text-center md:translate-y-52 transform-gpu">
