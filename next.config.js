@@ -1,6 +1,4 @@
 
-
-
 const path = require("path");
 const allowedImageWordPressDomain = new URL(process.env.NEXT_PUBLIC_WORDPRESS_URL).hostname
 
@@ -31,10 +29,3 @@ module.exports =   {
         domains: [ allowedImageWordPressDomain, 'pentru-par.cos-laboratories.com' ],
     },
 };
-const withPWA = require('next-pwa')({
-    dest: 'public'
-  })
-  
-  module.exports = withPWA({
-    // next.js config
-  })

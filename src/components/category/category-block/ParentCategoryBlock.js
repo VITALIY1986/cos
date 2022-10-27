@@ -14,8 +14,7 @@ const ParentCategoryBlock = ( props ) => {
 						className=" mx-3 "
 						layout="fill"
 						containerClassNames="h-28 w-28"
-						sourceUrl={ category?.image?.sourceUrl ?? '' }
-						defaultImgUrl={DEFAULT_CATEGORY_IMG_URL}
+					
 						altText={category?.image?.altText }
 					/>
 					<div className=" pt-3">
